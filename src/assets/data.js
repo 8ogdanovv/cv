@@ -1,4 +1,5 @@
 export default {
+
   toolkit: [
     {
       link: 'https://vuejs.org/',
@@ -39,6 +40,16 @@ export default {
       link: 'https://tailwindcss.com/',
       image: 'https://tailwindcss.com/favicons/apple-touch-icon.png?v=3',
       title: 'Tailwind CSS',
+    },
+    {
+      link: 'https://vuetifyjs.com/en/',
+      image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg',
+      title: 'Vuetify',
+    },
+    {
+      link: 'https://vuepress.vuejs.org/',
+      image: 'https://vuepress.vuejs.org/hero.png',
+      title: 'VuePress',
     },
     {
       link: 'https://code.visualstudio.com/',
@@ -307,6 +318,21 @@ image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-5
       link: 'https://madewithvuejs.com/',
       image: 'https://madewithvuejs.com/mandant/madewithvuejs/images/logo.png',
       title: 'made with vue.js',
+    },
+    {
+      link: 'https://github.com/readme/stories/evan-you',
+      image: 'https://images.ctfassets.net/s5uo95nf6njh/646bVsndbSoJf5AomEG4pX/17a607f575c18ac484bc568606b6bea2/evan-you-thumbnail.jpg?w=180&fm=avif',
+      title: 'Evan You',
+    },
+    {
+      link: 'https://sarahdrasnerdesign.com/',
+      image: 'https://avatars.githubusercontent.com/u/2281088?v=4',
+      title: 'Sarah Drasner',
+    },
+    {
+      link: 'https://www.programwitherik.com/',
+      image: 'https://avatars.githubusercontent.com/u/65630?v=4',
+      title: 'Erik Hanchett',
     },
   ]
 };
