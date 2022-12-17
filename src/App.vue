@@ -3,9 +3,9 @@
     <WithUkraine />
     <HeadName />
     <!-- <ViridianE text="viridian" /> -->
-    <InfoBlock text="my history:" :dataObject="history" :defaultShow="false" />
-    <InfoBlock text="demo pages:" :dataObject="folio" :defaultShow="true" />
-    <InfoBlock text="toolkit:" :dataObject="toolkit" :defaultShow="false" />
+    <InfoBlock text="curriculum vitae:" :dataObject="history" :defaultShow="false" />
+    <InfoBlock text="demo-pages (folio):" :dataObject="folio" :defaultShow="true" />
+    <InfoBlock text="the stack:" :dataObject="toolkit" :defaultShow="false" />
     <InfoBlock
       text="inspired by:"
       :dataObject="inspired"
