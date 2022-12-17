@@ -17,7 +17,7 @@
       :defaultShow="true"
       extraStyles="contacts"
     />
-    <h6>&copy; 2022 Vadym (Alex-Briz) Chervoniak</h6>
+    <h6>&copy; 2022 Vadym (vadym4che) Chervoniak</h6>
     <div v-show="false" class="audio">
     <audio id="open" autoplay controls>
       <source src="./assets/open-tab.wav" type="audio/wav">
