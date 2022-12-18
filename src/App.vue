@@ -79,6 +79,8 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+
 * {
   --viridian: #408260;
 

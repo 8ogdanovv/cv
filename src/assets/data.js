@@ -100,7 +100,7 @@ export default {
       link: 'https://www.npmjs.com/',
       image:'https://static.npmjs.com/f1786e9b7cba9753ca7b9c40e8b98f67.png',
       title: 'npm'
-    },  
+    },
     {
       link: 'https://github.com/Alex-Briz/',
       image: 'https://github.com/fluidicon.png',
@@ -219,11 +219,14 @@ export default {
         {
           paragraph:
           `Since 2014, I seriously thought about moving into IT, following my brother, who started a DevOps career. 
-          `},
+          `
+        },
         {
             paragraph:
             `
-            First it was Java. Then Web Basics. Then Python with the Python Institute. Thanks to the Harvard CS50 open courses, I also got acquainted with the low-level C language.
+            First it was Java. Then Web Basics. Then Python with the Python Institute.
+            At first i began my self-educating with Flask and Django.
+            Thanks to the Harvard CS50 open courses, I also got acquainted with the low-level C language.
         `},
         {
             paragraph:
@@ -246,15 +249,15 @@ export default {
         title: "+380505444199",
     },
       {
-          link: "vadym4che@gmail.com",
+          link: "mailto:vadym4che@gmail.com?subject=meeting",
           image: "https://iconarchive.com/download/i60229/zerode/plump/Mail.ico",
           title: "vadym4che@gmail.com",
       },
     {
-        link: "@vadym4che",
+        link: "https://t.me/vadym4che",
         // image: "https://i.pinimg.com/originals/6c/38/5d/6c385d1722eec2c5a10d2808d6ef6b96.png",
 // image: "https://cdn-icons-png.flaticon.com/512/3698/3698710.png",
-image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-512.png",
+        image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-512.png",
         title: "@vadym4che",
     },
   ],

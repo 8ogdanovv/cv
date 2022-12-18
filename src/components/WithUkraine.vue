@@ -36,15 +36,13 @@ export default {
 p, p span {
 
     font-size: 4vh;
-}
   }
-  
-  @media (orientation: portrait) {
-  
+}
+
+@media (orientation: portrait) {
     p, p span {
       font-size: 2.5vh;
-      
-      }
+}
 }
 
 #withUkraine {
@@ -76,7 +74,8 @@ p, p span {
   font-size: 1vh;
 }
 #time {
-    font-size: 3.5vw;
+  font-family: 'alarm clock', sans-serif;
+  font-size: 3vw;
   display: flex;
   flex-direction: row;
   color: whitesmoke;

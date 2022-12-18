@@ -141,7 +141,7 @@ export default {
     transform: scale(0.5);
   }
   .contacts a {
-    font-size: 0.66rem;
+    font-size: 0.75rem;
   }
   .wrapper {
     max-height: 37vh;
@@ -155,11 +155,11 @@ export default {
   }
 
   .wrapper_li {
-    height: 15vh;
-    width: auto;
+    height: 16vh;
+    width: 45%;
   }
     img {
-    max-width: '20vw'; 
+    max-width: 100%;
   }
 }
 
@@ -200,6 +200,9 @@ export default {
   width: auto;
 }
 
+.contacts a {
+  text-decoration-line: none;
+}
 .block {
   width: 96vw;
   margin: 0 1.5vw 0.75vh ;
