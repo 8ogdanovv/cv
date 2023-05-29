@@ -1,12 +1,28 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/cv/favicon_.ico"><link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><link href="//db.onlinewebfonts.com/c/1b96a8adcad08f7aa8edb5b1253205cd?family=HP+Simplified+Light" rel="stylesheet"/><style>@import url(//db.onlinewebfonts.com/c/1b96a8adcad08f7aa8edb5b1253205cd?family=HP+Simplified+Light);
-  
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/cv/favicon.png"><link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><link href="//db.onlinewebfonts.com/c/1b96a8adcad08f7aa8edb5b1253205cd?family=HP+Simplified+Light" rel="stylesheet"/><style>@import url(//db.onlinewebfonts.com/c/1b96a8adcad08f7aa8edb5b1253205cd?family=HP+Simplified+Light);
+
   @font-face {font-family: "HP Simplified Light"; src: url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.eot"); src: url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.woff") format("woff"), url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1b96a8adcad08f7aa8edb5b1253205cd.svg#HP Simplified Light") format("svg"); }
-  
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
-     margin: 0;  
-     padding: 0;  
-     border: 0;  
-     font-size: 100%;  
-     font: inherit; 
-     vertical-align: baseline;
-  }</style><title>&copy;CV</title><script>document.title = `© CV ${new Date().toLocaleString().slice(0,10)}`</script><script defer="defer" src="/cv/js/chunk-vendors.692e04e1.js"></script><script defer="defer" src="/cv/js/app.ea72379a.js"></script><link href="/cv/css/app.fdac1d2d.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but landing-cv-vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }</style><title>(č) Vadym Chervoniak CV</title><script>const clock = () => {
+    const updateTitle = () => {
+      const date = new Date();
+      const timeOpt = {};
+      const title_date_time = date.toLocaleString("nl-BE", timeOpt);
+      const title_date = title_date_time.toLocaleString().slice(0, 9);
+      const title_time = title_date_time.toLocaleString().slice(9);
+
+      const seconds = date.getSeconds();
+      document.title = `${title_date} ${seconds % 2 === 0 ? '|Č|' : '(č)'} ${title_time}`;
+    };
+
+    updateTitle();
+    setInterval(updateTitle, 1000);
+  };
+
+  window.onload = clock;</script><script defer="defer" src="/cv/js/chunk-vendors.81c86fdc.js"></script><script defer="defer" src="/cv/js/app.8ca76d3a.js"></script><link href="/cv/css/app.7fde95c1.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but landing-cv-vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
