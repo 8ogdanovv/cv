@@ -386,74 +386,74 @@ export default {
   ],
   folio: [
     {
-      link: "https://alex-briz.github.io/AIB/",
+      link: "https://vadym4che.github.io/AIB/",
       image: "./01.png",
       title: "AiB (dynamic) logo",
     },
     {
-      link: "https://alex-briz.github.io/fireSnow/",
+      link: "https://vadym4che.github.io/fireSnow/",
       image: "./02.png",
-      title: "Fire's'Now - nice css snow (from SCSS)",
+      title: "Fire's'Now - nice SCSS snow",
     },
     {
-      link: "https://alex-briz.github.io/clicker-js/",
+      link: "https://vadym4che.github.io/clicker-js/",
       image: "./03.png",
       title: "Clicker -- simple test game",
     },
     {
-      link: "https://alex-briz.github.io/tic-tac-toe-js/",
+      link: "https://vadym4che.github.io/tic-tac-toe-js/",
       image: "./04.png",
       title: "Tic-Tac-Toe (with drag'n'drop)",
     },
     {
-      link: "https://alex-briz.github.io/wordle-js/",
+      link: "https://vadym4che.github.io/wordle-js/",
       image: "./05.png",
       title: "Wordle guessing game (ukrainian)",
     },
     {
-      link: "https://alex-briz.github.io/fetch-api-js/",
+      link: "https://vadym4che.github.io/fetch-api-js/",
       image: "./06.png",
       title: "Fetch API with Rick and Morthy",
     },
     {
-      link: "https://alex-briz.github.io/random-user-vue/",
+      link: "https://vadym4che.github.io/random-user-vue/",
       image: "./07.png",
       title: "Random user getting with vue.js",
     },
     {
-      link: "https://alex-briz.github.io/travel-app-vue/",
+      link: "https://vadym4che.github.io/travel-app-vue/",
       image: "./08.png",
       title: "Vue Travel app (SPA vue-router)",
     },
     {
-      link: "https://alex-briz.github.io/food-cart-vue/",
+      link: "https://vadym4che.github.io/food-cart-vue/",
       image: "./09.png",
       title: "Food delivery app with cart (vue)",
     },
     {
-      link: "https://alex-briz.github.io/shop-react/",
+      link: "https://vadym4che.github.io/shop-react/",
       image: "./10.png",
       title: "Shop example (using ReactJS)",
     },
     {
-      link: "https://alex-briz.github.io/gpt3-react/",
+      link: "https://vadym4che.github.io/gpt3-react/",
       image: "./11.png",
-      title: "Responsive product landing site (react)",
+      title: "Responsive product landing (react)",
     },
     {
-      link: "https://alex-briz.github.io/my-server-io/",
+      link: "https://vadym4che.github.io/my-server-io/",
       image: "./12.png",
-      title: "Loading JS CSS, unique-shaped blocks"
+      title: "Loading - unique-shaped blocks"
     },
     {
-      link: 'https://alex-briz.github.io/json-list/',
+      link: 'https://vadym4che.github.io/json-list/',
       image: './13.png',
-      title: 'Convert JSON -> <ul /> - really easy!)'
+      title: 'JSON -> <ul /> - easy!)'
     },
     {
-      link: 'https://alex-briz.github.io/weather-app/',
+      link: 'https://vadym4che.github.io/weather-app/',
       image: './14.png',
-      title: 'Weather app - daily forecast via API (vue)'
+      title: 'Daily forecast app (Vue, API)'
     },
     {
       link: 'https://vadym4che.github.io/rgb-to-hex/',
@@ -468,12 +468,12 @@ export default {
     {
       link: 'https://github.com/vadym4che/synthwave-black-neon',
       image: './17.png',
-      title: 'VSCode Synth \'84 theme deep-dark remake'
+      title: 'Synth \'84 theme deep-dark remake'
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-goods/',
       image: './18.png',
-      title: 'Dynamic list of goods (react, bulma)'
+      title: 'Dynamic goods-list (react, bulma)'
     },
     {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',

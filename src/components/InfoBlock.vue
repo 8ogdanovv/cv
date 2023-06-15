@@ -30,7 +30,16 @@
         ]"
         >V</span
       >
-      <h5 class="toggler-title">
+      <h5
+        class="toggler-title"
+        :style="[
+          !toggleBool
+            ? { textShadow: '0 0 4px ' + localScrollColor }
+            : { textShadow: '0 0 4px ' + scrollColor },
+        ]"
+        @mouseover="applyTextShadow"
+        @mouseout="resetTextShadow"
+      >
         {{ text }}
       </h5>
       <span
@@ -38,8 +47,10 @@
         :class="[toggleBool ? 'mirrorVertSpan' : 'normalVertSpan']"
         :style="[
           !toggleBool
-            ? { background: scrollColor, color: 'var(--viridian)' }
-            : { background: 'var(--viridian)', color: scrollColor },
+            ? { background: scrollColor,
+                color: 'var(--viridian)' }
+            : { background: 'var(--viridian)',
+                color: scrollColor }
         ]"
         >V</span
       >
@@ -121,6 +132,7 @@ export default {
     return {
       toggleBool: false,
       keyNumber: Number(this.keyString),
+      localScrollColor: this.scrollColor,
     };
   },
   methods: {
@@ -146,6 +158,12 @@ export default {
       this.toggleBool = !this.toggleBool;
 
       return this.toggleBool;
+    },
+    applyTextShadow() {
+      this.localScrollColor = this.scrollColor;
+    },
+    resetTextShadow() {
+      this.localScrollColor = 'var(--viridian)';
     },
   },
   mounted() {
@@ -197,17 +215,18 @@ export default {
     transform: scale(0.5);
   }
   .contacts a {
-    font-size: 0.66rem;
+    font-size: 1rem;
   }
   .wrapper, .paragraphs {
     max-height: 35vh;
   }
   .wrapper_li a > img {
-    height: 8vh;
+    height: 7vh;
   }
 
   .wrapper_li a {
-    height: 17vh;
+    height: 15vh;
+    line-height: 90%;
   }
 
   .wrapper_li {
@@ -280,7 +299,8 @@ export default {
   background: var(--viridian);
   color: whitesmoke;
   cursor: pointer;
-  font-size: 2vh;
+  font-size: 2.5vh;
+  line-height: 2.5vh;
   font-weight: 900;
   border-radius: 1vh;
   padding: 0 1.2vw;
@@ -299,6 +319,7 @@ export default {
 
 .toggler-title {
   letter-spacing: 1vw;
+  font-size: 90%;
 }
 
 .wrapper {

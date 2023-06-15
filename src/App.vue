@@ -136,6 +136,7 @@ export default {
 
 * {
   --viridian: #4c48;
+  --viridian: hsla(120, 57%, 53%, 0.533);
 
   --font-hp: "HP Simplified Light";
 
