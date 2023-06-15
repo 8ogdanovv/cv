@@ -14,8 +14,8 @@
 
       <h2>
         <span>w</span>
-        <span>e</span>
-        <span>b</span>
+        <span>w</span>
+        <span>w</span>
         <span>-</span>
         <span>d</span>
         <span>e</span>
