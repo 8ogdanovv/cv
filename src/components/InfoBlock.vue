@@ -431,6 +431,14 @@ p {
   .toggler {
     height: 3vh;
   }
+
+  .scroll-v-left,
+  .scroll-v-right {
+    width: 3vh;
+    height: 3vh;
+    font-size: 2.5vh;
+    line-height: 3vh;
+  }
 }
 
 @media (resolution: 72dpi) {
