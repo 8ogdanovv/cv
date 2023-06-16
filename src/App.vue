@@ -216,4 +216,12 @@ h6 {
 }
 }
 
+@media (resolution: 72dpi) {
+  /* CSS rules for devices with 72dpi */
+  /* For example, you can apply specific styles or layouts */
+  h6 {
+    bottom: 3dvh;
+  }
+}
+
 </style>

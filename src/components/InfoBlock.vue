@@ -206,82 +206,6 @@ export default {
   );
 }
 
-@media (orientation: portrait) {
-
-  .contacts li {
-    height: 12vh;
-  }
-  .contacts img {
-    transform: scale(0.5);
-  }
-  .contacts a {
-    font-size: 1rem;
-  }
-  .wrapper, .paragraphs {
-    max-height: 35vh;
-  }
-  .wrapper_li a > img {
-    height: 7vh;
-  }
-
-  .wrapper_li a {
-    height: 15vh;
-    line-height: 90%;
-  }
-
-  .wrapper_li {
-    height: 16vh;
-    width: 45%;
-  }
-
-  .paragraph_li {
-    width: auto;
-  }
-
-  img {
-    max-width: 100%;
-  }
-}
-
-@media (orientation: landscape) {
-
-  .contacts li {
-    height: 14.5vh;
-  }
-  .contacts a {
-    font-size: 1rem;
-  }
-
-  .wrapper, .paragraphs {
-    max-height: 39vh;
-  }
-  .wrapper_li {
-    height: 18vh;
-    width: auto;
-    aspect-ratio: 9 / 5;
-    min-width: 10vh;
-  }
-
-  .paragraph_li {
-    width: auto;
-    min-height: fit-content;
-    height: auto;
-  }
-
-  .wrapper_li a > img {
-    height: 10vh;
-  }
-
-  .wrapper_li a {
-    height: 19vh;
-  }
-
-  img {
-    max-width: 15vw;
-  }
-
-}
-
 .contacts img {
   width: auto;
 }
@@ -299,8 +223,6 @@ export default {
   background: var(--viridian);
   color: whitesmoke;
   cursor: pointer;
-  font-size: 2.5vh;
-  line-height: 2.5vh;
   font-weight: 900;
   border-radius: 1vh;
   padding: 0 1.2vw;
@@ -319,7 +241,6 @@ export default {
 
 .toggler-title {
   letter-spacing: 1vw;
-  font-size: 90%;
 }
 
 .wrapper {
@@ -419,6 +340,116 @@ p {
 .toggler:hover {
 	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@media (orientation: landscape) {
+
+  .contacts li {
+    height: 14.5vh;
+  }
+  .contacts a {
+    font-size: 1rem;
+  }
+
+  .wrapper, .paragraphs {
+    max-height: 39vh;
+  }
+  .wrapper_li {
+    height: 18vh;
+    width: auto;
+    aspect-ratio: 9 / 5;
+    min-width: 10vh;
+  }
+
+  .paragraph_li {
+    width: auto;
+    min-height: fit-content;
+    height: auto;
+  }
+
+  .wrapper_li a > img {
+    height: 10vh;
+  }
+
+  .wrapper_li a {
+    height: 19vh;
+  }
+
+  img {
+    max-width: 15vw;
+  }
+
+  .toggler {
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+  }
+
+}
+
+@media (orientation: portrait) {
+  .contacts li {
+    height: 10vh;
+  }
+  .contacts a {
+    font-size: 1.2rem;
+  }
+
+  .contacts img {
+    transform: scale(1.2);
+  }
+  .wrapper, .paragraphs {
+    max-height: 35vh;
+  }
+  .wrapper_li a > img {
+    height: 7vh;
+  }
+
+  .wrapper_li a {
+    height: 15vh;
+    line-height: 90%;
+  }
+
+  .wrapper_li {
+    height: 16vh;
+    width: 45%;
+  }
+
+  .paragraph_li {
+    width: auto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .toggler-title {
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+    letter-spacing: 0.33vw;
+  }
+
+  .toggler {
+    height: 3vh;
+  }
+}
+
+@media (resolution: 72dpi) {
+  /* CSS rules for devices with 72dpi */
+  /* For example, you can apply specific styles or layouts */
+  .contacts li {
+    height: 13vh;
+  }
+  .contacts a {
+    font-size: 0.66rem;
+  }
+
+  .toggler-title {
+    font-size: 2vh;
+  }
+
+  .contacts img {
+    transform: scale(0.8);
+  }
 }
 
 @-webkit-keyframes shadow-inset-center {
