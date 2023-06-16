@@ -444,19 +444,8 @@ p {
 @media (resolution: 72dpi) {
   /* CSS rules for devices with 72dpi */
   /* For example, you can apply specific styles or layouts */
-  .contacts li {
-    height: 13vh;
-  }
   .contacts a {
     font-size: 0.66rem;
-  }
-
-  .toggler-title {
-    font-size: 2vh;
-  }
-
-  .contacts img {
-    transform: scale(0.8);
   }
 }
 
