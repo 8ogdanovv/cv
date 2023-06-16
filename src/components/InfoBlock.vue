@@ -449,6 +449,15 @@ p {
   }
 }
 
+
+@media (max-width: 640px) {
+  /* CSS rules for devices with 72dpi */
+  /* For example, you can apply specific styles or layouts */
+  .contacts a {
+    font-size: 0.66rem;
+  }
+}
+
 @-webkit-keyframes shadow-inset-center {
   0% {
     -webkit-box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
