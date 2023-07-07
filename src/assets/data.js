@@ -505,6 +505,11 @@ export default {
       image: './24.png',
       title: 'Another full-stack (MEVN) app'
     },
+    {
+      link: 'https://vadym4che.github.io/json-parser/',
+      image: './25.png',
+      title: 'JSON parser for fignel.com'
+    },
   ],
   contacts: [
     {
