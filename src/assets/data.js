@@ -595,11 +595,6 @@ export default {
       title: 'made with vue.js',
     },
     {
-      link: 'https://madewithvuejs.com/',
-      image: 'https://madewithvuejs.com/mandant/madewithvuejs/images/logo.png',
-      title: 'made with vue.js',
-    },
-    {
       link: 'https://github.com/readme/stories/evan-you',
       image: 'https://images.ctfassets.net/s5uo95nf6njh/646bVsndbSoJf5AomEG4pX/17a607f575c18ac484bc568606b6bea2/evan-you-thumbnail.jpg?w=180&fm=avif',
       title: 'Evan You',
