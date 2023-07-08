@@ -506,8 +506,13 @@ export default {
       title: 'Another full-stack (MEVN) app'
     },
     {
-      link: 'https://vadym4che.github.io/json-parser/',
+      link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
       image: './25.png',
+      title: 'abz.agency GET, POST (react) demo'
+    },
+    {
+      link: 'https://vadym4che.github.io/json-parser/',
+      image: './26.png',
       title: 'JSON parser for fignel.com'
     },
   ],
