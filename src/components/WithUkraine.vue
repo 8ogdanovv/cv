@@ -1,6 +1,6 @@
 <template>
   <div id="withUkraine">
-    <div id="time">dd/mm/yyyy hh:mm:ss</div>
+    <div id="time">{{ currentTime }}</div>
     <p>Stand With <span>Ukraine</span></p>
     <div id="flag">
       <div id="navy">navy</div>
@@ -13,36 +13,40 @@
 export default {
   name: "WithUkraine",
   data() {
-    return {}
+    return {
+      currentTime: ""
+    };
   },
   methods: {
-    clock() {
-      const timeOpt = {}
-      let time = new Date().toLocaleString("nl-BE", timeOpt)
-      document.getElementById("time").innerText = time
+    updateClock() {
+      const timeOpt = {};
+      const time = new Date().toLocaleString("nl-BE", timeOpt);
+      this.currentTime = time;
     },
   },
-
   mounted() {
-    setInterval(this.clock, 1000)
+    this.updateClock();
+    this.clockInterval = setInterval(this.updateClock, 1000);
   },
+  beforeUnmounted() {
+    clearInterval(this.clockInterval);
+  }
 };
 </script>
 
 <style scoped>
-
 @media (orientation: landscape) {
-
-p, p span {
-
+  p,
+  p span {
     font-size: 4vh;
   }
 }
 
 @media (orientation: portrait) {
-    p, p span {
-      font-size: 2.5vh;
-}
+  p,
+  p span {
+    font-size: 2.5vh;
+  }
 }
 
 #withUkraine {
@@ -55,24 +59,28 @@ p, p span {
   background: black;
   color: whitesmoke;
 }
+
 #flag {
   height: 4vh;
   display: flex;
   flex-direction: column;
   aspect-ratio: 3 / 2;
 }
+
 #gold {
   height: 2vh;
   background: gold;
   color: gold;
   font-size: 1vh;
 }
+
 #navy {
   height: 2vh;
   background: navy;
   color: navy;
   font-size: 1vh;
 }
+
 #time {
   font-family: 'alarm clock', sans-serif;
   font-size: 3vw;
@@ -85,10 +93,10 @@ p, p span {
 }
 
 p {
-    margin: 0 1vw;
-    color: var(--grey-warm);
-    font-weight: 500;
-    opacity: 0.95;
+  margin: 0 1vw;
+  color: var(--grey-warm);
+  font-weight: 500;
+  opacity: 0.95;
 }
 
 p span {

@@ -133,7 +133,8 @@ export default {
       toggleBool: false,
       keyNumber: Number(this.keyString),
       localScrollColor: this.scrollColor,
-    };
+      soundCouldBePlayed: !this.defaultShow,
+    }
   },
   methods: {
     handleOpenSound() {
@@ -147,7 +148,12 @@ export default {
       setTimeout(() => {
         elem.scrollTop = elem.scrollHeight;
       }, 0);
-      this.handleOpenSound();
+
+      if (this.soundCouldBePlayed) {
+        this.handleOpenSound();
+      }
+
+      this.soundCouldBePlayed = true;
     },
     toggle() {
       if (this.toggleBool === true) {
@@ -168,12 +174,7 @@ export default {
   },
   mounted() {
     if (this.defaultShow) {
-      this.$nextTick(() => {
-        const list = this.$refs[`info${this.keyString}`];
-        if (list) {
-          list.click();
-        }
-      });
+      this.toggle();
     }
   },
 }

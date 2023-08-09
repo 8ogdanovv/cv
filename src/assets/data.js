@@ -166,7 +166,7 @@ export default {
     },
     {
       link: 'https://sass-lang.com/',
-      image: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+      image: 'https://sass-lang.com/assets/img/logos/logo.svg',
       title: 'SASS'
     },
     {
@@ -386,6 +386,11 @@ export default {
   ],
   folio: [
     {
+      link: "https://vadym4che.github.io/simplicity-angular/",
+      image: "./29.png",
+      title: "Angular features test 2021",
+    },
+    {
       link: "https://vadym4che.github.io/AIB/",
       image: "./01.png",
       title: "AiB (dynamic) logo",
@@ -466,6 +471,11 @@ export default {
       title: 'MyBike - simple SCSS'
     },
     {
+      link: 'https://vadym4che.github.io/layout_stop-watch/',
+      image: './28.png',
+      title: 'Watch Clock Widget styled with SCSS'
+    },
+    {
       link: 'https://github.com/vadym4che/synthwave-black-neon',
       image: './17.png',
       title: 'Synth \'84 theme deep-dark remake'
@@ -514,6 +524,11 @@ export default {
       link: 'https://vadym4che.github.io/json-parser/',
       image: './26.png',
       title: 'JSON parser for fignel.com'
+    },
+    {
+      link: 'https://your-cocktail-dugu.vercel.app/',
+      image: './27.png',
+      title: 'Y(our)-cocktail (Nuxt2, vercel)'
     },
   ],
   contacts: [
@@ -595,6 +610,46 @@ export default {
       title: 'made with vue.js',
     },
     {
+      link: 'https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode',
+      image: 'https://robbowen.gallerycdn.vsassets.io/extensions/robbowen/synthwave-vscode/0.1.15/1670610064896/Microsoft.VisualStudio.Services.Icons.Default',
+      title: 'SynthWave \'84',
+    },
+    {
+      link: 'https://pnpm.io/',
+      image: 'https://pnpm.io/img/pnpm-no-name-with-frame.svg',
+      title: 'pnpm',
+    },
+    {
+      link: 'https://rubjo.github.io/victor-mono/',
+      image: 'https://rubjo.github.io/victor-mono/favicon.ico',
+      title: 'Victor Mono font',
+    },
+    {
+      link: 'https://github.com/robb0wen',
+      image: 'https://avatars.githubusercontent.com/u/13797889?v=4',
+      title: 'Robb Owen',
+    },
+    {
+      link: 'https://github.com/rubjo',
+      image: 'https://avatars.githubusercontent.com/u/42270947?v=4',
+      title: 'Rubjo',
+    },
+    {
+      link: 'https://github.com/zkochan',
+      image: 'https://avatars.githubusercontent.com/u/1927579?v=4',
+      title: 'Zoltan Kochan',
+    },
+    {
+      link: 'https://github.com/danielroe',
+      image: 'https://avatars.githubusercontent.com/u/28706372?v=4',
+      title: 'Daniel Roe',
+    },
+    {
+      link: 'https://github.com/mhrynko',
+      image: 'https://avatars.githubusercontent.com/u/123093629?v=4',
+      title: 'Misha Hrynko',
+    },
+    {
       link: 'https://github.com/readme/stories/evan-you',
       image: 'https://images.ctfassets.net/s5uo95nf6njh/646bVsndbSoJf5AomEG4pX/17a607f575c18ac484bc568606b6bea2/evan-you-thumbnail.jpg?w=180&fm=avif',
       title: 'Evan You',
@@ -608,6 +663,11 @@ export default {
       link: 'https://www.programwitherik.com/',
       image: 'https://avatars.githubusercontent.com/u/65630?v=4',
       title: 'Erik Hanchett',
+    },
+    {
+      link: 'https://github.com/sergii-nosachenko',
+      image: 'https://avatars.githubusercontent.com/u/54940595?v=4',
+      title: 'Sergii Nosachenko',
     },
   ],
 };

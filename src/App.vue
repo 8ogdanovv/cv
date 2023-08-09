@@ -77,7 +77,7 @@
     />
     <h6>&copy; 2022 Vadym (vadym4che) Chervoniak</h6>
     <div v-show="false" class="audio">
-      <audio ref="openSound" autoplay controls>
+      <audio ref="openSound" controls>
         <source src="./assets/open-tab.wav" type="audio/wav">
       Your browser does not support the audio element.
       </audio>
