@@ -386,149 +386,134 @@ export default {
   ],
   folio: [
     {
-      link: "https://vadym4che.github.io/simplicity-angular/",
-      image: "./29.png",
-      title: "Angular features test 2021",
-    },
-    {
       link: "https://vadym4che.github.io/AIB/",
       image: "./01.png",
-      title: "AiB (dynamic) logo",
+      title: "Animation HTML/CSS/JS single-file",
     },
     {
       link: "https://vadym4che.github.io/fireSnow/",
       image: "./02.png",
-      title: "Fire's'Now - nice SCSS snow",
-    },
-    {
-      link: "https://vadym4che.github.io/clicker-js/",
-      image: "./03.png",
-      title: "Clicker -- simple test game",
-    },
-    {
-      link: "https://vadym4che.github.io/tic-tac-toe-js/",
-      image: "./04.png",
-      title: "Tic-Tac-Toe (with drag'n'drop)",
-    },
-    {
-      link: "https://vadym4che.github.io/wordle-js/",
-      image: "./05.png",
-      title: "Wordle guessing game (ukrainian)",
-    },
-    {
-      link: "https://vadym4che.github.io/fetch-api-js/",
-      image: "./06.png",
-      title: "Fetch API with Rick and Morthy",
-    },
-    {
-      link: "https://vadym4che.github.io/random-user-vue/",
-      image: "./07.png",
-      title: "Random user getting with vue.js",
-    },
-    {
-      link: "https://vadym4che.github.io/travel-app-vue/",
-      image: "./08.png",
-      title: "Vue Travel app (SPA vue-router)",
-    },
-    {
-      link: "https://vadym4che.github.io/food-cart-vue/",
-      image: "./09.png",
-      title: "Food delivery app with cart (vue)",
-    },
-    {
-      link: "https://vadym4che.github.io/shop-react/",
-      image: "./10.png",
-      title: "Shop example (using ReactJS)",
-    },
-    {
-      link: "https://vadym4che.github.io/gpt3-react/",
-      image: "./11.png",
-      title: "Responsive product landing (react)",
-    },
-    {
-      link: "https://vadym4che.github.io/my-server-io/",
-      image: "./12.png",
-      title: "Loading - unique-shaped blocks"
-    },
-    {
-      link: 'https://vadym4che.github.io/json-list/',
-      image: './13.png',
-      title: 'JSON -> <ul /> - easy!)'
-    },
-    {
-      link: 'https://vadym4che.github.io/weather-app/',
-      image: './14.png',
-      title: 'Daily forecast app (Vue, API)'
-    },
-    {
-      link: 'https://vadym4che.github.io/rgb-to-hex/',
-      image: './15.png',
-      title: 'RGB to #hex converter'
-    },
-    {
-      link: 'https://vadym4che.github.io/layout_miami/',
-      image: './16.png',
-      title: 'MyBike - simple SCSS'
+      title: "Fire's'Now - nice snow (SCSS)",
     },
     {
       link: 'https://vadym4che.github.io/layout_stop-watch/',
-      image: './28.png',
-      title: 'Watch Clock Widget styled with SCSS'
+      image: './03.png',
+      title: 'Real-time Watch Widget (SCSS, JS)'
     },
     {
-      link: 'https://github.com/vadym4che/synthwave-black-neon',
-      image: './17.png',
-      title: 'Synth \'84 theme deep-dark remake'
+      link: "https://vadym4che.github.io/my-server-io/",
+      image: "./04.png",
+      title: "Loading - custom unique-shaped blocks"
+    },
+    {
+      link: "https://vadym4che.github.io/clicker-js/",
+      image: "./05.png",
+      title: "Clicker -- simple test game (JS, Storage)",
+    },
+    {
+      link: "https://vadym4che.github.io/wordle-js/",
+      image: "./06.png",
+      title: "Wordle guessing game (Ukrainian)",
+    },
+    {
+      link: "https://vadym4che.github.io/gpt3-react/",
+      image: "./07.png",
+      title: "Responsive landing (BEM, React)",
+    },
+    {
+      link: 'https://vadym4che.github.io/layout_miami/',
+      image: './08.png',
+      title: 'Another Brand landing - MyBike (BEM, SCSS)'
+    },
+    {
+      link: "https://vadym4che.github.io/random-user-vue/",
+      image: "./09.png",
+      title: "Fetching random user (Vue.js)",
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-goods/',
-      image: './18.png',
-      title: 'Dynamic goods-list (react, bulma)'
+      image: './10.png',
+      title: 'Optional fetching goods-list (React, Bulma)'
     },
     {
-      link: 'https://vadym4che.github.io/react_movies-list-add-form/',
-      image: './19.png',
-      title: 'Movies-list add-form (react)'
+      link: 'https://vadym4che.github.io/json-list/',
+      image: './11.png',
+      title: 'Fetching and transforming data (JS, HTML5)'
     },
     {
-      link: 'https://vadym4che.github.io/react_people-table-basics/#/people',
-      image: './20.png',
-      title: 'People table with API call (react)'
-    },
-    {
-      link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
-      image: './21.png',
-      title: 'Dynamic todos list (react)'
-    },
-    {
-      link: 'https://vadym4che.github.io/react_todo-app-with-api/',
-      image: './22.png',
-      title: 'todos app with API (react, bulma)'
-    },
-    {
-      link: 'https://fe-jan23-team-six.github.io/product-catalog/',
-      image: './23.png',
-      title: 'Nice Gatgets - online store (PERN)'
-    },
-    {
-      link: 'https://vadym4che.github.io/orders-and-products-client/',
-      image: './24.png',
-      title: 'Another full-stack (MEVN) app'
-    },
-    {
-      link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
-      image: './25.png',
-      title: 'abz.agency GET, POST (react) demo'
+      link: 'https://vadym4che.github.io/rgb-to-hex/',
+      image: './12.png',
+      title: 'Transforming colors RGB to #hex'
     },
     {
       link: 'https://vadym4che.github.io/json-parser/',
-      image: './26.png',
-      title: 'JSON parser for fignel.com'
+      image: './13.png',
+      title: 'Rendering and copying HTML from Figma .json'
+    },
+    {
+      link: 'https://vadym4che.github.io/react_movies-list-add-form/',
+      image: './14.png',
+      title: 'Movies collection site (RegExp, React)'
+    },
+    {
+      link: "https://vadym4che.github.io/simplicity-angular/",
+      image: "./15.png",
+      title: "Angular main features test 2021",
+    },
+    {
+      link: "https://vadym4che.github.io/travel-app-vue/",
+      image: "./16.png",
+      title: "Traveling agency site (Vue, Vue-router)",
+    },
+    {
+      link: "https://vadym4che.github.io/food-cart-vue/",
+      image: "./17.png",
+      title: "Online grocery store with cart (Vue.js)",
+    },
+    {
+      link: "https://vadym4che.github.io/shop-react/",
+      image: "./18.png",
+      title: "Accessories store (React, Material-UI)",
+    },
+    {
+      link: 'https://vadym4che.github.io/react_people-table-basics/#/people',
+      image: './19.png',
+      title: 'CRM with relationships (React, RESTfull API)'
+    },
+    {
+      link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
+      image: './20.png',
+      title: 'Task backlog (React, TypeScript)'
+    },
+    {
+      link: 'https://vadym4che.github.io/react_todo-app-with-api/',
+      image: './21.png',
+      title: 'Todos full-stack web app (PERN, Bulma)'
+    },
+    {
+      link: 'https://fe-jan23-team-six.github.io/product-catalog/',
+      image: './22.png',
+      title: 'Nice Gatgets - full-stack app (PERN)'
+    },
+    {
+      link: 'https://vadym4che.github.io/orders-and-products-client/',
+      image: './23.png',
+      title: 'Another full-stack app (MEVN)'
+    },
+    {
+      link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
+      image: './24.png',
+      title: 'Front-end - basic (React, RESTfull API)'
+    },
+    {
+      link: 'https://vadym4che.github.io/weather-app/',
+      image: './25.png',
+      title: 'Nice forecast real-time app (Vue.js, Axios)'
     },
     {
       link: 'https://your-cocktail-dugu.vercel.app/',
-      image: './27.png',
-      title: 'Y(our)-cocktail (Nuxt2, vercel)'
+      image: './26.png',
+      title: 'Y(our)-cocktail - XXL catalogue (Nuxt, Vue, Vercel)'
     },
   ],
   contacts: [
