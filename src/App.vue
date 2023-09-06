@@ -125,8 +125,6 @@ export default {
       closeTab.play();
     },
   },
-  mounted() {
-  },
 };
 </script>
 

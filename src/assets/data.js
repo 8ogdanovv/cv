@@ -518,7 +518,7 @@ export default {
   ],
   contacts: [
     {
-        link: "+380505444199",
+        link: "tel:+380505444199",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Phone_Shiny_Icon.svg/768px-Phone_Shiny_Icon.svg.png",
         title: "+380505444199",
     },
