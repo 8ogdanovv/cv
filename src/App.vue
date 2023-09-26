@@ -23,7 +23,7 @@
     <InfoBlock
       text="demo-pages (folio):"
       :dataObject="folio"
-      :defaultShow="true"
+      :defaultShow="false"
       :openSound="openSound"
       :closeSound="closeSound"
       keyString="2"
@@ -59,7 +59,7 @@
     <InfoBlock
       text="inspired by:"
       :dataObject="inspired"
-      :defaultShow="false"
+      :defaultShow="true"
       :openSound="openSound"
       :closeSound="closeSound"
       keyString="6"

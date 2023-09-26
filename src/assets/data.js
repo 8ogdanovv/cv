@@ -155,6 +155,11 @@ export default {
       title: 'Python'
     },
     {
+      link: 'https://www.php.net/',
+      image: 'https://www.php.net/images/logos/php-logo.svg',
+      title: 'PHP'
+    },
+    {
       link: 'https://html.spec.whatwg.org/',
       image: 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
       title: 'HTML'
@@ -212,11 +217,6 @@ export default {
       title: 'npm'
     },
     {
-      link: 'https://pnpm.io/',
-      image:'https://res.cloudinary.com/practicaldev/image/fetch/s--GxwhFdGl--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://dev-to-uploads.s3.amazonaws.com/uploads/organization/profile_image/1797/ae6be511-5635-4ab3-8ac1-762ccf317ac8.png',
-      title: 'pnpm'
-    },
-    {
       link: 'https://git-scm.com/',
       image: 'https://git-scm.com/favicon.ico',
       title: 'git'
@@ -226,10 +226,40 @@ export default {
       image: 'https://vitejs.dev/logo.svg',
       title: 'Vite',
     },
+    // {
+    //   link: 'https://flask.palletsprojects.com/',
+    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png',
+    //   title: 'Flask',
+    // },
+    // {
+    //   link: 'https://www.djangoproject.com/',
+    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/2560px-Django_logo.svg.png',
+    //   title: 'Django',
+    // },
+    // {
+    //   link: 'https://angular.io/',
+    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png',
+    //   title: 'Angular',
+    // },
+    // {
+    //   link: 'https://www.cypress.io/',
+    //   image: 'https://www.cypress.io/_astro/navbar-brand.0d71ff96.svg',
+    //   title: 'Cypress',
+    // },
+    {
+      link: 'https://tailwindcss.com/',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png?20211001194333',
+      title: 'Tailwind CSS',
+    },
     {
       link: 'https://vuejs.org/',
       image: 'https://vuejs.org/images/logo.png',
       title: 'Vue.js'
+    },
+    {
+      link: 'https://nuxt.com/',
+      image: 'https://nuxt.com/assets/design-kit/logo/icon-green.svg',
+      title: 'Nuxt.js',
     },
     {
       link: 'https://react.dev/',
@@ -237,89 +267,9 @@ export default {
       title: 'ReactJS'
     },
     {
-      link: 'https://router.vuejs.org/',
-      image: 'https://router.vuejs.org/logo.png',
-      title: 'Vue Router',
-    },
-    {
-      link: 'https://reactrouter.com/en/main',
-      image: 'https://reactrouter.com/_brand/react-router-mark-color-inverted.png',
-      title: 'React-router',
-    },
-    {
-      link: 'https://angular.io/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png',
-      title: 'Angular',
-    },
-    {
-      link: 'https://flask.palletsprojects.com/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png',
-      title: 'Flask',
-    },
-    {
-      link: 'https://www.djangoproject.com/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/2560px-Django_logo.svg.png',
-      title: 'Django',
-    },
-    {
-      link: 'https://pinia.vuejs.org/',
-      image: 'https://pinia.vuejs.org/logo.svg',
-      title: 'Pinia',
-    },
-    {
-      link: 'https://testing-library.com/docs/vue-testing-library/intro/',
-      image: 'https://testing-library.com/img/octopus-64x64.png',
-      title: '@testing-library/vue',
-    },
-    {
-      link: 'https://www.cypress.io/',
-      image: 'https://www.cypress.io/images/layouts/navbar-brand.svg',
-      title: 'Cypress',
-    },
-    {
-      link: 'https://vitesse.netlify.app/',
-      image: 'https://vitesse.netlify.app/pwa-192x192.png',
-      title: 'Vitesse',
-    },
-    {
-      link: 'https://vuetifyjs.com/en/',
-      image: 'https://cdn.vuetifyjs.com/docs/images/logos/vuetify-logo-light-atom.svg',
-      title: 'Vuetify',
-    },
-    {
-      link: 'https://tailwindcss.com/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png?20211001194333',
-      title: 'Tailwind CSS',
-    },
-    {
-      link: 'https://bulma.io/',
-      image: 'https://bulma.io/assets/Bulma%20Icon.png',
-      title: 'Bulma',
-    },
-    {
-      link: 'https://getbootstrap.com/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png',
-      title: 'Bootstrap',
-    },
-    {
-      link: 'https://vuestorefront.io/',
-      image: 'https://images.contentstack.io/v3/assets/blt189c1df68c6b48d7/blte44e5d5da716daba/624be65852b58c08a42de740/vsf_logo.svg?auto=webp&height=40',
-      title: 'Vue Storefront'
-    },
-    {
-      link: 'https://vuepress.vuejs.org/',
-      image: 'https://vuepress.vuejs.org/hero.png',
-      title: 'VuePress',
-    },
-    {
-      link: 'https://github.com/madlabsinc/mevn-cli',
-      image: 'https://camo.githubusercontent.com/ee7c64dc429a3befe69cfa0233a46d763a5ba81924fabceab69dad0f71eb2279/68747470733a2f2f692e696d6775722e636f6d2f4e5635317438342e6a7067',
-      title: 'MEVN'
-    },
-    {
-      link: 'https://nuxtjs.org/',
-      image: 'https://nuxt.com/assets/design-kit/logo/icon-green.svg',
-      title: 'Nuxt.js',
+      link: 'https://nextjs.org/',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/394px-Nextjs-logo.svg.png',
+      title: 'Next.js',
     },
     {
       link: 'https://expressjs.com/',
@@ -348,6 +298,11 @@ export default {
     },
   ],
   interested: [
+    {
+      link: 'https://www.php.net/',
+      image: 'https://www.php.net/images/logos/php-logo.svg',
+      title: 'PHP'
+    },
     {
       link: 'https://go.dev/',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/768px-Go_Logo_Blue.svg.png',
@@ -545,29 +500,14 @@ export default {
       title: 'cs50',
     },
     {
-      link: 'https://www.mooc.org/',
-      image: 'https://www.mooc.org/hubfs/Mooc.org%20Logo.svg',
-      title: 'Massive Open Online Courses',
-    },
-        {
       link: 'https://www.edx.org/',
       image: 'https://www.edx.org/images/logos/edx-logo-elm.svg',
       title: 'edX',
     },
     {
-      link: 'https://www.classcentral.com/',
-      image: 'https://www.classcentral.com/favicon-32x32.png',
-      title: 'class central',
-    },
-    {
-      link: 'https://www.udacity.com/',
-      image: 'https://www.udacity.com/images/svgs/udacity-tt-logo.svg',
-      title: 'Udacity',
-    },
-    {
-      link: 'https://ossu.firebaseapp.com/#/',
-      image: 'https://ossu.firebaseapp.com/favicon.ico?v2',
-      title: 'OSSU',
+      link: 'https://cssbattle.dev/',
+      image: 'https://cssbattle.dev/images/logo-new-glyph.svg',
+      title: 'CSSBattle',
     },
     {
       link: 'https://www.codewars.com/',
@@ -625,24 +565,9 @@ export default {
       title: 'Zoltan Kochan',
     },
     {
-      link: 'https://github.com/danielroe',
-      image: 'https://avatars.githubusercontent.com/u/28706372?v=4',
-      title: 'Daniel Roe',
-    },
-    {
       link: 'https://github.com/mhrynko',
       image: 'https://avatars.githubusercontent.com/u/123093629?v=4',
       title: 'Misha Hrynko',
-    },
-    {
-      link: 'https://github.com/readme/stories/evan-you',
-      image: 'https://images.ctfassets.net/s5uo95nf6njh/646bVsndbSoJf5AomEG4pX/17a607f575c18ac484bc568606b6bea2/evan-you-thumbnail.jpg?w=180&fm=avif',
-      title: 'Evan You',
-    },
-    {
-      link: 'https://sarahdrasnerdesign.com/',
-      image: 'https://avatars.githubusercontent.com/u/2281088?v=4',
-      title: 'Sarah Drasner',
     },
     {
       link: 'https://www.programwitherik.com/',
@@ -650,9 +575,19 @@ export default {
       title: 'Erik Hanchett',
     },
     {
-      link: 'https://github.com/sergii-nosachenko',
-      image: 'https://avatars.githubusercontent.com/u/54940595?v=4',
-      title: 'Sergii Nosachenko',
+      link: 'https://github.com/danielroe',
+      image: 'https://avatars.githubusercontent.com/u/28706372?v=4',
+      title: 'Daniel Roe',
+    },
+    {
+      link: 'https://sarahdrasnerdesign.com/',
+      image: 'https://avatars.githubusercontent.com/u/2281088?v=4',
+      title: 'Sarah Drasner',
+    },
+    {
+      link: 'https://github.com/readme/stories/evan-you',
+      image: 'https://images.ctfassets.net/s5uo95nf6njh/646bVsndbSoJf5AomEG4pX/17a607f575c18ac484bc568606b6bea2/evan-you-thumbnail.jpg?w=180&fm=avif',
+      title: 'Evan You',
     },
   ],
 };
