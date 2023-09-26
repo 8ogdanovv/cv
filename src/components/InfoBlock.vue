@@ -448,6 +448,10 @@ p {
   .contacts a {
     font-size: 0.66rem;
   }
+
+  p {
+    font-size: 3vh;
+  }
 }
 
 
