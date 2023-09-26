@@ -21,4 +21,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-./src/assets/icons
+src/assets/icons
