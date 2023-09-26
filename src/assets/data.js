@@ -486,7 +486,7 @@ export default {
       title: 'Front-end - basic (React, RESTfull API)'
     },
     {
-      link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
+      link: 'https://vadym4che.github.io/devit-team/',
       image: './30.png',
       title: 'Web basics (Git, Flex, Grid, JavaScript, TypeScript)'
     },
