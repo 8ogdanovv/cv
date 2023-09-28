@@ -343,17 +343,17 @@ export default {
     {
       link: "https://vadym4che.github.io/AIB/",
       image: "./01.png",
-      title: "Animation HTML/CSS/JS single-file",
+      title: "Animation simple HTML, CSS, JS",
     },
     {
       link: "https://vadym4che.github.io/fireSnow/",
       image: "./02.png",
-      title: "Fire's'Now - nice snow (SCSS)",
+      title: "Fire's'Now - nice snow - SCSS",
     },
     {
       link: 'https://vadym4che.github.io/layout_stop-watch/',
       image: './03.png',
-      title: 'Real-time Watch Widget (SCSS, JS)'
+      title: 'Real-time Watch Widget - SCSS, JS'
     },
     {
       link: 'https://vadym4che.github.io/lunar-solar-time/',
@@ -363,22 +363,22 @@ export default {
     {
       link: "https://vadym4che.github.io/my-server-io/",
       image: "./05.png",
-      title: "Loading - custom unique-shaped blocks"
+      title: "Loading - unique shaped blocks"
     },
     {
       link: "https://vadym4che.github.io/clicker-js/",
       image: "./06.png",
-      title: "Clicker -- simple test game (JS, Storage)",
+      title: "Clicker - simple game JS, Storage",
     },
     {
       link: "https://vadym4che.github.io/unison-capture/",
       image: "./07.png",
-      title: "Capturing video stream from camera JS",
+      title: "Capturing camera video stream JS",
     },
     {
       link: "https://vadym4che.github.io/code-runner/",
       image: "./08.png",
-      title: "Browser simple JavaScript code runner",
+      title: "Browser JS code runner",
     },
     {
       link: "https://vadym4che.github.io/wordle-js/",
@@ -388,32 +388,32 @@ export default {
     {
       link: "https://vadym4che.github.io/gpt3-react/",
       image: "./10.png",
-      title: "Responsive landing (BEM, React)",
+      title: "Responsive landing - BEM, React",
     },
     {
       link: 'https://vadym4che.github.io/layout_miami/',
       image: './11.png',
-      title: 'Another Brand landing - MyBike (BEM, SCSS)'
+      title: 'MyBike landing - BEM, SCSS, JS'
     },
     {
       link: "https://vadym4che.github.io/random-user-vue/",
       image: "./12.png",
-      title: "Fetching random user (Vue.js)",
+      title: "Fetching random user - Vue.js",
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-goods/',
       image: './13.png',
-      title: 'Optional fetching goods-list (React, Bulma)'
+      title: 'Optional fetching - React, Bulma'
     },
     {
       link: 'https://vadym4che.github.io/div-toggle-colorizer/',
       image: './14.png',
-      title: 'Div Toggle Colorizer (HTML and JavaScript)'
+      title: 'Div Toggle Colorizer - HTML, JS'
     },
     {
       link: 'https://vadym4che.github.io/json-list/',
       image: './15.png',
-      title: 'Fetching and transforming data (JS, HTML5)'
+      title: 'Fetch, render data - JS, HTML5'
     },
     {
       link: 'https://vadym4che.github.io/rgb-to-hex/',
@@ -423,17 +423,17 @@ export default {
     {
       link: 'https://vadym4che.github.io/json-parser/',
       image: './17.png',
-      title: 'Rendering and copying HTML from Figma .json'
+      title: 'Render, copy HTML - Figma, .json'
     },
     {
       link: 'https://vadym4che.github.io/list-item-append/',
       image: './18.png',
-      title: 'JavaScript inserts a CSS styled <div> to the page'
+      title: `JS inserts CSS styled <div/>'s`
     },
     {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',
       image: './19.png',
-      title: 'Movies collection site (RegExp, React)'
+      title: 'Movies collection - RegExp, React'
     },
     {
       link: "https://vadym4che.github.io/simplicity-angular/",
@@ -443,62 +443,62 @@ export default {
     {
       link: "https://vadym4che.github.io/travel-app-vue/",
       image: "./21.png",
-      title: "Traveling agency site (Vue, Vue-router)",
+      title: "Traveling agency - Vue, Vue-router",
     },
     {
       link: "https://vadym4che.github.io/food-cart-vue/",
       image: "./22.png",
-      title: "Online grocery store with cart (Vue.js)",
+      title: "Online grocery, cart - Vue.js",
     },
     {
       link: "https://vadym4che.github.io/shop-react/",
       image: "./23.png",
-      title: "Accessories store (React, Material-UI)",
+      title: "Accessories store - React, MUI",
     },
     {
       link: 'https://vadym4che.github.io/react_people-table-basics/#/people',
       image: './24.png',
-      title: 'CRM with relationships (React, RESTfull API)'
+      title: 'CRM-like - React, RESTfull API'
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
       image: './25.png',
-      title: 'Task backlog (React, TypeScript)'
+      title: 'Task backlog - React, TypeScript'
     },
     {
       link: 'https://vadym4che.github.io/react_todo-app-with-api/',
       image: './26.png',
-      title: 'Todos full-stack web app (PERN, Bulma)'
+      title: 'Todos full-stack app - PERN, Bulma'
     },
     {
       link: 'https://fe-jan23-team-six.github.io/product-catalog/',
       image: './27.png',
-      title: 'Nice Gatgets - full-stack app (PERN)'
+      title: 'Nice Gatgets - full-stack PERN'
     },
     {
       link: 'https://vadym4che.github.io/orders-and-products-client/',
       image: './28.png',
-      title: 'Another full-stack app (MEVN)'
+      title: 'Another full-stack app - MEVN'
     },
     {
       link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
       image: './29.png',
-      title: 'Front-end - basic (React, RESTfull API)'
+      title: 'FE basics - React, RESTfull API'
     },
     {
       link: 'https://vadym4che.github.io/devit-team/',
       image: './30.png',
-      title: 'Web basics (Git, Flex, Grid, JavaScript, TypeScript)'
+      title: 'Web basics - git, flex, grid, JS, TS'
     },
     {
       link: 'https://vadym4che.github.io/weather-app/',
       image: './31.png',
-      title: 'Nice forecast real-time app (Vue.js, Axios)'
+      title: 'Forecast app - Vue.js, Axios'
     },
     {
       link: 'https://your-cocktail-dugu.vercel.app/',
       image: './32.png',
-      title: 'Y(our)-cocktail - XXL catalogue (Nuxt, Vue, Vercel)'
+      title: 'Y(our)-cocktail - Nuxt, Vue, Vercel'
     },
   ],
   contacts: [

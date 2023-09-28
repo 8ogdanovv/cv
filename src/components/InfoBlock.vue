@@ -94,7 +94,10 @@
           />
           {{ data.title }}
         </a>
-        <p v-else>
+        <p
+          v-else
+          :class="[text === 'auto-biography-(č)oding' ? 'italic' : '']"
+        >
           {{ data.paragraph }}
         </p>
       </li>
@@ -224,7 +227,7 @@ export default {
   background: var(--viridian);
   color: whitesmoke;
   cursor: pointer;
-  font-weight: 900;
+  font-weight: 700;
   border-radius: 1vh;
   padding: 0 1.2vw;
   display: flex;
@@ -335,7 +338,11 @@ a {
 p {
   color: black;
   font-weight: 900;
-  font-size: 1.5vh;
+  font-size: 1.5vmax;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .toggler:hover {
@@ -460,6 +467,10 @@ p {
   /* For example, you can apply specific styles or layouts */
   .contacts a {
     font-size: 0.66rem;
+  }
+
+  p {
+    font-size: 2.5vmax;
   }
 }
 

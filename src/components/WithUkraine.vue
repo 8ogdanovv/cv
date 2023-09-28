@@ -100,7 +100,7 @@ p {
 }
 
 p span {
-    font-weight: 900;
+    font-weight: 700;
     background: -webkit-linear-gradient(270deg,navy 25%,gold);
     background-clip: text;
     -webkit-background-clip: text;

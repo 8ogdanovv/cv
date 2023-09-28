@@ -136,8 +136,6 @@ export default {
   --viridian: #4c48;
   --viridian: hsla(120, 57%, 53%, 0.533);
 
-  --font-hp: "HP Simplified Light";
-
   --ubuntu-orange: #e95420;
   --aubergine-light: #77216f;
   --aubergine-mid: #5e2750;
@@ -149,7 +147,6 @@ export default {
 
   --vue-police-blue: #2c3e50;
   --vue-mint: #42b983;
-  --vue-font: Avenir, Helvetica, Arial, sans-serif;
 }
 
 html * {
@@ -159,7 +156,6 @@ html * {
 }
 body {
   color: whitesmoke;
-  font-family: var(--font-hp);
   background: linear-gradient(
     180deg,
     black 0%,
@@ -181,7 +177,7 @@ a {
   font-size: 2.4vh;
   color: white;
   text-shadow: 0 0 1.5rem black;
-  font-weight: 900;
+  font-weight: 700;
   text-decoration-style: dashed;
 }
 
