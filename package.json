@@ -1,10 +1,11 @@
 {
   "name": "landing-cv-vue",
   "version": "0.1.0",
-  "homepage": "https://alex-briz.github.io/cv",
+  "homepage": "https://vadym4che.github.io/cv/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
+    "autodeploy": "gh-pages -d dist --repo https://github.com/vadym4che/cv.git",
     "deploy": "gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

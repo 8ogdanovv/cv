@@ -358,7 +358,7 @@ export default {
     {
       link: 'https://vadym4che.github.io/lunar-solar-time/',
       image: './04.png',
-      title: 'Solar time + lunar phase Widget'
+      title: 'Solar + lunar time widget'
     },
     {
       link: "https://vadym4che.github.io/my-server-io/",
@@ -388,7 +388,7 @@ export default {
     {
       link: "https://vadym4che.github.io/gpt3-react/",
       image: "./10.png",
-      title: "Responsive landing - BEM, React",
+      title: "Responsive layout - BEM, React",
     },
     {
       link: 'https://vadym4che.github.io/layout_miami/',
@@ -408,7 +408,7 @@ export default {
     {
       link: 'https://vadym4che.github.io/div-toggle-colorizer/',
       image: './14.png',
-      title: 'Div Toggle Colorizer - HTML, JS'
+      title: 'Div colorize toggle - pure JS'
     },
     {
       link: 'https://vadym4che.github.io/json-list/',
@@ -418,7 +418,7 @@ export default {
     {
       link: 'https://vadym4che.github.io/rgb-to-hex/',
       image: './16.png',
-      title: 'Transforming colors RGB to #hex'
+      title: 'Transform color RGB to #hex'
     },
     {
       link: 'https://vadym4che.github.io/json-parser/',
@@ -438,7 +438,7 @@ export default {
     {
       link: "https://vadym4che.github.io/simplicity-angular/",
       image: "./20.png",
-      title: "Angular main features test 2021",
+      title: "Angular main features 2021",
     },
     {
       link: "https://vadym4che.github.io/travel-app-vue/",
@@ -483,12 +483,12 @@ export default {
     {
       link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
       image: './29.png',
-      title: 'FE basics - React, RESTfull API'
+      title: 'FE basics - React, REST'
     },
     {
       link: 'https://vadym4che.github.io/devit-team/',
       image: './30.png',
-      title: 'Web basics - git, flex, grid, JS, TS'
+      title: 'Web basics - git, layout, JS, TS'
     },
     {
       link: 'https://vadym4che.github.io/weather-app/',

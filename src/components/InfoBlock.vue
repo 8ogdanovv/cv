@@ -456,9 +456,10 @@ p {
     font-size: 0.66rem;
   }
 
-  p {
-    font-size: 3vh;
+  .italic {
+    letter-spacing: -0.25ch;
   }
+
 }
 
 
@@ -467,10 +468,6 @@ p {
   /* For example, you can apply specific styles or layouts */
   .contacts a {
     font-size: 0.66rem;
-  }
-
-  p {
-    font-size: 2.5vmax;
   }
 }
 

@@ -1,0 +1,55 @@
+# name: CI/CD for Vue App
+
+# on:
+#   push:
+#     branches:
+#       - main
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 14
+
+#       - name: Install dependencies
+#         run: npm install
+
+#       - name: Build
+#         run: npm run build
+
+#       - name: Deploy to GitHub Pages
+#         run: |
+#           git config user.email "vadym4che@gmail.com"
+#           git config user.name "vadym4che"
+#           npm run autodeploy
+#         env:
+#           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
+        env:
+          GH_TOKEN: ${{ secrets.GH_ACTIONS_TOKEN }}
+        run: |
+          npm install -g gh-pages
+          gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
