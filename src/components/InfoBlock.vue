@@ -469,6 +469,10 @@ p {
   .contacts a {
     font-size: 0.66rem;
   }
+
+  .italic {
+    letter-spacing: -0.15ch;
+  }
 }
 
 @-webkit-keyframes shadow-inset-center {
