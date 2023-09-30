@@ -33,6 +33,7 @@
 #           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
 
 name: Deploy to GitHub Pages
+
 on:
   push:
     branches:
@@ -59,11 +60,15 @@ jobs:
       - name: Install dependencies
         run: npm install  # Install project dependencies
 
+      - name: Set Git User Information
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your.email@example.com"
+        shell: bash
+
       - name: Build and Deploy
         env:
           GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
         run: |
-          git config user.name "vadym4che"
-          git config user.email "vadym4che@gmail.com"
           npm install -g gh-pages
           gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
