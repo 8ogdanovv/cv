@@ -1,60 +1,60 @@
-# landing-cv-vue
+# My CV
 
-Тестовое задание.
-Одноэкранный лендинг(а-ля визитка)
+Welcome to my CV repository! This repository showcases my skills and qualifications in a user-friendly format.
 
-Задача:
-Сверстать лендинг соответственно макету.
+## Skills
 
-Обязательные требования:
+- Front-end Development
+- Vue.js
+- JavaScript
+- HTML5
+- CSS3
+- Git
+- Node.js
+- TypeScript
+- Figma
+- React
+- Cypress
+- ESLint
+- JSON
+- Postman
+- Vue Router
+- Vuex
 
-+ Лендинг должен быть адаптивным
-(минимальная ширина 320px iphone 5 iphone SE,
-Мобильная версия tablet version
-и на Ваше усмотрение (Проверка на responsive coding)
+## Features
 
-+ Главное, чтобы все было аккуратно и презентабельно смотрелось.
+- Responsive Design
+- Interactive User Interface
+- Integration with External APIs
+- Modern Web Development Technologies
+- GitHub Actions for Automated Deployment
 
-+ Ховер эффекты при наведении на кнопки
-на Ваше усмотрение. Главное, чтобы они были
+## Preview
 
-Дополнительные баллы начисляются за:
+You can view my CV live [here](https://vadym4che.github.io/cv/).
 
-+ Использование PixelPerfect extension
- (for Chrome, for Firefox etc. – в зависимости от Вашего браузера)
+## Thanks to Developers
 
-+ Реализаци  функционала "Copy Code”.
-  При нажатии на "Copy Code” текст “Witcher” должен копироваться в буфер обмена,
-  чтобы его потом можно было куда-нибудь вставить с помощью Ctrl+V
+I would like to express my gratitude to the developers of the following tools and technologies used in this project:
 
-+ Разнообразные анимационные еффекты.
+- [Vue.js](https://vuejs.org/)
+- [Vue CLI](https://cli.vuejs.org/)
+- [GitHub Pages](https://pages.github.com/)
+- [Node.js](https://nodejs.org/)
+- [Figma](https://www.figma.com/)
+- [React](https://reactjs.org/)
+- [Cypress](https://www.cypress.io/)
+- [ESLint](https://eslint.org/)
+- [JSON](https://www.json.org/json-en.html)
+- [Postman](https://www.postman.com/)
+- [Vue Router](https://router.vuejs.org/)
+- [Vuex](https://vuex.vuejs.org/)
+- [Git](https://git-scm.com/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [TypeScript](https://www.typescriptlang.org/)
+- [GitHub Actions](https://github.com/features/actions)
 
-+ Параллакс-еффект
-  
-+ Правильное  и Кроссбраузерное подключение нужных шрифтов (в IE11 и Safari должно работать:)
-  Изначальный шрифт в архиве. Если нужны другие расширения шрифта, можно пользоваться конвертерами шрифтов.
+Feel free to explore my CV and its source code to learn more about my skills and qualifications. If you have any questions or would like to get in touch, please don't hesitate to contact me.
 
-+ Разработка и сборка проекта с помощью сборщика (Gulp, Webpack etc.)
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Thank you for visiting!
