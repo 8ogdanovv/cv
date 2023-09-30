@@ -5,8 +5,9 @@
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "autodeploy": "gh-pages -d dist --repo https://github.com/vadym4che/cv.git",
     "deploy": "gh-pages -d dist",
+    "autodeploy": "gh-pages -d dist --repo https://github.com/vadym4che/cv.git",
+    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
