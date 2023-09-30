@@ -342,162 +342,162 @@ export default {
   folio: [
     {
       link: "https://vadym4che.github.io/AIB/",
-      image: "./01.png",
+      image: "./01.webp",
       title: "Animation simple HTML, CSS, JS",
     },
     {
       link: "https://vadym4che.github.io/fireSnow/",
-      image: "./02.png",
+      image: "./02.webp",
       title: "Fire's'Now - nice snow - SCSS",
     },
     {
       link: 'https://vadym4che.github.io/layout_stop-watch/',
-      image: './03.png',
+      image: './03.webp',
       title: 'Real-time Watch Widget - SCSS, JS'
     },
     {
       link: 'https://vadym4che.github.io/lunar-solar-time/',
-      image: './04.png',
+      image: './04.webp',
       title: 'Solar + lunar time widget'
     },
     {
       link: "https://vadym4che.github.io/my-server-io/",
-      image: "./05.png",
+      image: "./05.webp",
       title: "Loading - unique shaped blocks"
     },
     {
       link: "https://vadym4che.github.io/clicker-js/",
-      image: "./06.png",
+      image: "./06.webp",
       title: "Clicker - simple game JS, Storage",
     },
     {
       link: "https://vadym4che.github.io/unison-capture/",
-      image: "./07.png",
+      image: "./07.webp",
       title: "Capturing camera video stream JS",
     },
     {
       link: "https://vadym4che.github.io/code-runner/",
-      image: "./08.png",
+      image: "./08.webp",
       title: "Browser JS code runner",
     },
     {
       link: "https://vadym4che.github.io/wordle-js/",
-      image: "./09.png",
+      image: "./09.webp",
       title: "Wordle guessing game (Ukrainian)",
     },
     {
       link: "https://vadym4che.github.io/gpt3-react/",
-      image: "./10.png",
+      image: "./10.webp",
       title: "Responsive layout - BEM, React",
     },
     {
       link: 'https://vadym4che.github.io/layout_miami/',
-      image: './11.png',
+      image: './11.webp',
       title: 'MyBike landing - BEM, SCSS, JS'
     },
     {
       link: "https://vadym4che.github.io/random-user-vue/",
-      image: "./12.png",
+      image: "./12.webp",
       title: "Fetching random user - Vue.js",
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-goods/',
-      image: './13.png',
+      image: './13.webp',
       title: 'Optional fetching - React, Bulma'
     },
     {
       link: 'https://vadym4che.github.io/div-toggle-colorizer/',
-      image: './14.png',
+      image: './14.webp',
       title: 'Div colorize toggle - pure JS'
     },
     {
       link: 'https://vadym4che.github.io/json-list/',
-      image: './15.png',
+      image: './15.webp',
       title: 'Fetch, render data - JS, HTML5'
     },
     {
       link: 'https://vadym4che.github.io/rgb-to-hex/',
-      image: './16.png',
+      image: './16.webp',
       title: 'Transform color RGB to #hex'
     },
     {
       link: 'https://vadym4che.github.io/json-parser/',
-      image: './17.png',
+      image: './17.webp',
       title: 'Render, copy HTML - Figma, .json'
     },
     {
       link: 'https://vadym4che.github.io/list-item-append/',
-      image: './18.png',
+      image: './18.webp',
       title: `JS inserts CSS styled <div/>'s`
     },
     {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',
-      image: './19.png',
+      image: './19.webp',
       title: 'Movies collection - RegExp, React'
     },
     {
       link: "https://vadym4che.github.io/simplicity-angular/",
-      image: "./20.png",
+      image: "./20.webp",
       title: "Angular main features 2021",
     },
     {
       link: "https://vadym4che.github.io/travel-app-vue/",
-      image: "./21.png",
+      image: "./21.webp",
       title: "Traveling agency - Vue, Vue-router",
     },
     {
       link: "https://vadym4che.github.io/food-cart-vue/",
-      image: "./22.png",
+      image: "./22.webp",
       title: "Online grocery, cart - Vue.js",
     },
     {
       link: "https://vadym4che.github.io/shop-react/",
-      image: "./23.png",
+      image: "./23.webp",
       title: "Accessories store - React, MUI",
     },
     {
       link: 'https://vadym4che.github.io/react_people-table-basics/#/people',
-      image: './24.png',
+      image: './24.webp',
       title: 'CRM-like - React, RESTfull API'
     },
     {
       link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
-      image: './25.png',
+      image: './25.webp',
       title: 'Task backlog - React, TypeScript'
     },
     {
       link: 'https://vadym4che.github.io/react_todo-app-with-api/',
-      image: './26.png',
+      image: './26.webp',
       title: 'Todos full-stack app - PERN, Bulma'
     },
     {
       link: 'https://fe-jan23-team-six.github.io/product-catalog/',
-      image: './27.png',
+      image: './27.webp',
       title: 'Nice Gatgets - full-stack PERN'
     },
     {
       link: 'https://vadym4che.github.io/orders-and-products-client/',
-      image: './28.png',
+      image: './28.webp',
       title: 'Another full-stack app - MEVN'
     },
     {
       link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
-      image: './29.png',
+      image: './29.webp',
       title: 'FE basics - React, REST'
     },
     {
       link: 'https://vadym4che.github.io/devit-team/',
-      image: './30.png',
+      image: './30.webp',
       title: 'Web basics - git, layout, JS, TS'
     },
     {
       link: 'https://vadym4che.github.io/weather-app/',
-      image: './31.png',
+      image: './31.webp',
       title: 'Forecast app - Vue.js, Axios'
     },
     {
       link: 'https://your-cocktail-dugu.vercel.app/',
-      image: './32.png',
+      image: './32.webp',
       title: 'Y(our)-cocktail - Nuxt, Vue, Vercel'
     },
   ],
