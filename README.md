@@ -9,20 +9,6 @@ We each have our own unique story to tell, and through the language of technolog
 
 [![Tilda CMS CV](https://github.com/vadym4che/cv/blob/main/public/favicon.png)](https://vadym4che.tilda.ws/)
 
-<a name="contact"></a>
-## Contact
-
-Connect with me through various platforms:
-
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-vadym4che-green)](https://www.linkedin.com/in/vadym4che/)
-- [![Facebook](https://img.shields.io/badge/Facebook-vadym4che-green)](https://www.facebook.com/vadym4che/)
-- [![Telegram](https://img.shields.io/badge/Telegram-vadym4che-green)](https://t.me/vadym4che)
-- [![Email](https://img.shields.io/badge/Email-vadym4che%40gmail.com-green)](mailto:vadym4che@gmail.com)
-- [![Phone](https://img.shields.io/badge/Phone-%2B380505444199-green)](tel:+380505444199)
-
-
-## About Me
-
 I've earned my own very first PC  
 By working summer holidays in 2003  
 I'm a `web dev loco` (if you will) code-addict  
@@ -30,7 +16,14 @@ Devoted to development with JavaScript
 I'm experienced enough to exactly know  
 Using DOCs, AI, Google and Stackoverflow  
 
-I'm Vadym Chervoniak, a Full-stack developer with a passion for web development and IT. I have a strong background in Electrical Engineering and a Bachelor's degree in Electronics and Power Engineering from Chernivtsi National University and Electrical Equipment Management from Kamianets-Podilskyi Industrial College.
+<a name="contact"></a>
+## Contacts
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vadym4che-green)](https://www.linkedin.com/in/vadym4che/)
+[![Facebook](https://img.shields.io/badge/Facebook-vadym4che-green)](https://www.facebook.com/vadym4che/)
+[![Telegram](https://img.shields.io/badge/Telegram-vadym4che-green)](https://t.me/vadym4che)
+[![Email](https://img.shields.io/badge/Email-vadym4che%40gmail.com-green)](mailto:vadym4che@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-%2B380505444199-green)](tel:+380505444199)
 
 ## Experience
 
@@ -55,6 +48,8 @@ Tech stack: HTML5, DOM, CSS SASS, BEM, Javascript, MVC, Jquery, Ajax.
 I've been working as a freelance Front-end Developer since 2019. During this time, I've had the opportunity to work on a variety of projects, collaborating with clients to create visually appealing and responsive web applications. My work has included HTML, CSS, JavaScript, and various front-end frameworks and libraries. This experience has further honed my skills and allowed me to deliver tailored solutions to different clients.
 
 ## Education
+
+I'm Vadym Chervoniak, a Full-stack developer with a passion for web development and IT. I have a strong background in Electrical Engineering and a Bachelor's degree in Electronics and Power Engineering from Chernivtsi National University and Electrical Equipment Management from Kamianets-Podilskyi Industrial College.
 
 ### Self-educational sources and Standards
 - [![React](https://img.shields.io/badge/React-dev-green)](https://react.dev)  
@@ -88,30 +83,27 @@ Junior bachelor's degree in Electrical equipment installation and maintenance
 **Full-stack Development:**
 Front-end and Back-end Development, HTML5 [![HTML](https://img.shields.io/badge/-HTML5-orange)](https://link-to-html), CSS3 [![CSS](https://img.shields.io/badge/-CSS3-blue)](https://link-to-css), W3C HTML/CSS [![W3C](https://img.shields.io/badge/-W3C%20HTML%2FCSS-lightgrey)](https://link-to-w3c), [![Sass](https://img.shields.io/badge/Sass-lang.com-green)](https://link-to-sass), Bootstrap [![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple)](https://link-to-bootstrap), [![Bulma](https://img.shields.io/badge/Bulma-green)](https://link-to-bulma), Tailwind CSS [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-teal)](https://link-to-tailwind), UI libraries, JavaScript (ES2015/ES2019) [![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)](https://link-to-javascript), [![TypeScript](https://img.shields.io/badge/TypeScript-blue)](https://link-to-typescript), [![jQuery](https://img.shields.io/badge/jQuery-green)](https://link-to-jquery), [![Vue.js](https://img.shields.io/badge/Vue.js-green)](https://link-to-vue), [![React](https://img.shields.io/badge/React-blue)](https://link-to-react), Angular, Redux, Vuex, Pinia, SPA (Single-Page Application), SSR (Server-Side Rendering), SSG (Static Site Generation), DOM (Document Object Model), BEM (Block Element Modifier), Ajax, MVC (Model-View-Controller), OSI (Open System Interconnection), OOP (Object-Oriented Programming), SEO (Search Engine Optimization), Algorithms, SDLC (Software Development Life Cycle), Scrum, Kanban, AI (Artificial Intelligence), Node.js [![Node.js](https://img.shields.io/badge/-Node.js-green)](https://link-to-node), Express.js, SQL [![SQL](https://img.shields.io/badge/-SQL-blue)](https://link-to-sql), MongoDB, PostgreSQL, Web sockets, Git [![Git](https://img.shields.io/badge/-Git-red)](https://link-to-git) (GitHub, GitLab), VS Code [![VS Code](https://img.shields.io/badge/-VS%20Code-blue)](https://link-to-vscode), Chrome Developer Tools, NPM [![NPM](https://img.shields.io/badge/-NPM-red)](https://link-to-npm) (Node Package Manager), Webpack, Vite, Postman [![Postman](https://img.shields.io/badge/-Postman-orange)](https://link-to-postman), Photoshop, Figma [![Figma](https://img.shields.io/badge/-Figma-purple)](https://link-to-figma)
 
-
-
-
 ## Thanks to Developers
 
 I would like to express my gratitude to the developers of the following tools and technologies used in this project:
 
-- [![Vue.js](https://img.shields.io/badge/Vue.js-green)](https://vuejs.org/)
-- [![Vue CLI](https://img.shields.io/badge/Vue%20CLI-green)](https://cli.vuejs.org/)
-- [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-green)](https://pages.github.com/)
-- [![Node.js](https://img.shields.io/badge/Node.js-green)](https://nodejs.org/)
-- [![Figma](https://img.shields.io/badge/Figma-purple)](https://www.figma.com/)
-- [![React](https://img.shields.io/badge/React-blue)](https://reactjs.org/)
-- [![Cypress](https://img.shields.io/badge/Cypress-green)](https://www.cypress.io/)
-- [![ESLint](https://img.shields.io/badge/ESLint-green)](https://eslint.org/)
-- [![JSON](https://img.shields.io/badge/JSON-green)](https://www.json.org/json-en.html)
-- [![Postman](https://img.shields.io/badge/Postman-orange)](https://www.postman.com/)
-- [![Vue Router](https://img.shields.io/badge/Vue%20Router-green)](https://router.vuejs.org/)
-- [![Vuex](https://img.shields.io/badge/Vuex-green)](https://vuex.vuejs.org/)
-- [![Git](https://img.shields.io/badge/Git-red)](https://git-scm.com/)
-- [![HTML5](https://img.shields.io/badge/HTML5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [![CSS3](https://img.shields.io/badge/CSS3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [![TypeScript](https://img.shields.io/badge/TypeScript-blue)](https://www.typescriptlang.org/)
-- [![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-green)](https://github.com/features/actions)
+[![Vue.js](https://img.shields.io/badge/Vue.js-green)](https://vuejs.org/)
+[![Vue CLI](https://img.shields.io/badge/Vue%20CLI-green)](https://cli.vuejs.org/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-green)](https://pages.github.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-green)](https://nodejs.org/)
+[![Figma](https://img.shields.io/badge/Figma-purple)](https://www.figma.com/)
+[![React](https://img.shields.io/badge/React-blue)](https://reactjs.org/)
+[![Cypress](https://img.shields.io/badge/Cypress-green)](https://www.cypress.io/)
+[![ESLint](https://img.shields.io/badge/ESLint-green)](https://eslint.org/)
+[![JSON](https://img.shields.io/badge/JSON-green)](https://www.json.org/json-en.html)
+[![Postman](https://img.shields.io/badge/Postman-orange)](https://www.postman.com/)
+[![Vue Router](https://img.shields.io/badge/Vue%20Router-green)](https://router.vuejs.org/)
+[![Vuex](https://img.shields.io/badge/Vuex-green)](https://vuex.vuejs.org/)
+[![Git](https://img.shields.io/badge/Git-red)](https://git-scm.com/)
+[![HTML5](https://img.shields.io/badge/HTML5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-blue)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![TypeScript](https://img.shields.io/badge/TypeScript-blue)](https://www.typescriptlang.org/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-green)](https://github.com/features/actions)
 
 Feel free to explore my CV and its source code to learn more about my skills and qualifications. If you have any questions or would like to get in touch, please don't hesitate to [Contact Me](#contact).
 
