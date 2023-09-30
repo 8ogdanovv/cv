@@ -1,38 +1,27 @@
-name: Autodeploy to GitHub Pages
+name: Vue.js CI/CD
 
 on:
   push:
     branches:
       - main
-permissions:
-  contents: write
 
 jobs:
-  deploy:
+  build-test-deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v2
-        with:
-          fetch-depth: 0  # Fetch all history for accurate versioning
-
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 16  # Set Node.js version to 16
-
-      - name: Install dependencies
-        run: npm install  # Install project dependencies
-
-      - name: Set Git User Information
+          node-version: "14"
+      - name: Install Dependencies
+        run: npm install
+      - name: Build Vue.js App
+        run: npm run build
+      - name: Deploy with gh-pages
         run: |
-          git config --global user.name "vadym4che"
-          git config --global user.email "vadym4che@gmail.com"
-        shell: bash
-
-      - name: Deploy to GitHub Pages
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
-          GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-        run: |
-          npm run autodeploy
+          GITHUB_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
