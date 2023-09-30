@@ -94,6 +94,8 @@
           run: npm ci
 
         - name: Run deploy script
+          env:
+            GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
           run: |
             git config user.name "vadym4che" && git config user.email "vadym4che@gmail.com"
-            npm run gh-pages-deploy
+            gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
