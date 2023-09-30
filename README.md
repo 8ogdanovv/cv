@@ -1,40 +1,34 @@
 <a name="top"></a>
-[![Scroll to Bottom](https://example.com/scroll_down_image.png)](#bottom)
-
 # Auto-biography-(č)oding
 
 I am Vadym Chervoniak, a Full-stack developer based in Ukraine. My expertise includes HTML, CSS, JavaScript, React, Vue, Node.js, various databases, cloud computing, and integrating with different APIs, helping me to deliver complex web development solutions.
-
+  
 As individuals, we are all born developers, constantly shaping our neural networks as we journey through life. Some of us, including myself, have chosen to transform this passion for development into a fulfilling career in web development. For me, it's not just a job but a calling that allows me to express my creativity and make a meaningful impact through technology.
-
+  
 We each have our own unique story to tell, and through the language of technology, we code our autobiographies, breathing life into our ideas on the digital canvas. I am deeply dedicated to creating user-friendly web applications and continually enhancing my skills to stay ahead in this ever-evolving industry.
 
-## Interactive CV
-
-Explore my interactive CV with clickable links and icons:
-
-- [Interactive CV](https://vadym4che.tilda.ws/)
+[![Tilda CMS CV](https://github.com/vadym4che/cv/blob/main/public/favicon.png)](https://vadym4che.tilda.ws/)
 
 <a name="contact"></a>
 ## Contact
 
 Connect with me through various platforms:
 
-- [![GitHub](https://img.shields.io/badge/GitHub-vadym4che-blue)](https://github.com/vadym4che)
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-vadym4che-blue)](https://www.linkedin.com/in/vadym4che/)
-- [![Facebook](https://img.shields.io/badge/Facebook-vadym4che-blue)](https://www.facebook.com/vadym4che/)
-- Email: [vadym4che@gmail.com](mailto:vadym4che@gmail.com)
-- [![Telegram](https://img.shields.io/badge/Telegram-vadym4che-blue)](https://t.me/vadym4che)
-- Phone: [+380505444199](tel:+380505444199)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-vadym4che-green)](https://www.linkedin.com/in/vadym4che/)
+- [![Facebook](https://img.shields.io/badge/Facebook-vadym4che-green)](https://www.facebook.com/vadym4che/)
+- [![Telegram](https://img.shields.io/badge/Telegram-vadym4che-green)](https://t.me/vadym4che)
+- [![Email](https://img.shields.io/badge/Email-vadym4che%40gmail.com-green)](mailto:vadym4che@gmail.com)
+- [![Phone](https://img.shields.io/badge/Phone-%2B380505444199-green)](tel:+380505444199)
+
 
 ## About Me
 
-I've earned my own very first PC
-By working summer holidays in 2003
-I'm a `web dev loco` (if you will) code-addict
-Devoted to development with JavaScript
-I'm experienced enough to exactly know
-Using DOCs, AI, Google and Stackoverflow
+I've earned my own very first PC  
+By working summer holidays in 2003  
+I'm a `web dev loco` (if you will) code-addict  
+Devoted to development with JavaScript  
+I'm experienced enough to exactly know  
+Using DOCs, AI, Google and Stackoverflow  
 
 I'm Vadym Chervoniak, a Full-stack developer with a passion for web development and IT. I have a strong background in Electrical Engineering and a Bachelor's degree in Electronics and Power Engineering from Chernivtsi National University and Electrical Equipment Management from Kamianets-Podilskyi Industrial College.
 
@@ -63,7 +57,7 @@ I've been working as a freelance Front-end Developer since 2019. During this tim
 ## Education
 
 ### Self-educational sources and Standards
-- [![React](https://img.shields.io/badge/React-dev-green)](https://react.dev)
+- [![React](https://img.shields.io/badge/React-dev-green)](https://react.dev)  
 - [![Vue.js](https://img.shields.io/badge/Vuejs.org-green)](https://vuejs.org)
 - [![VueMastery](https://img.shields.io/badge/VueMastery.com-green)](https://www.vuemastery.com)
 - [![Sass](https://img.shields.io/badge/Sass-lang.com-green)](https://sass-lang.com)
@@ -92,7 +86,10 @@ Junior bachelor's degree in Electrical equipment installation and maintenance
 ## Professional Skills
 
 **Full-stack Development:**
-Front-end and Back-end Development, HTML5 ![HTML](https://img.shields.io/badge/-HTML5-orange), CSS3 ![CSS](https://img.shields.io/badge/-CSS3-blue), W3C HTML/CSS ![W3C](https://img.shields.io/badge/-W3C%20HTML%2FCSS-lightgrey), Sass (SCSS), Bootstrap ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple), Bulma ![Bulma](https://img.shields.io/badge/-Bulma-blue), Tailwind CSS ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-teal), UI libraries, JavaScript (ES2015/ES2019) ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow), Typescript ![TypeScript](https://img.shields.io/badge/-TypeScript-blue), jQuery ![jQuery](https://img.shields.io/badge/-jQuery-green), Vue ![Vue.js](https://img.shields.io/badge/-Vue.js-green), React ![React](https://img.shields.io/badge/-React-blue), Angular, Redux, Vuex, Pinia, SPA (Single-Page Application), SSR (Server-Side Rendering), SSG (Static Site Generation), DOM (Document Object Model), BEM (Block Element Modifier), Ajax, MVC (Model-View-Controller), OSI (Open System Interconnection), OOP (Object-Oriented Programming), SEO (Search Engine Optimization), Algorithms, SDLC (Software Development Life Cycle), Scrum, Kanban, AI (Artificial Intelligence), Node.js ![Node.js](https://img.shields.io/badge/-Node.js-green), Express.js, SQL ![SQL](https://img.shields.io/badge/-SQL-blue), MongoDB, PostgreSQL, Web sockets, Git ![Git](https://img.shields.io/badge/-Git-red) (GitHub, GitLab), VS Code ![VS Code](https://img.shields.io/badge/-VS%20Code-blue), Chrome Developer Tools, NPM ![NPM](https://img.shields.io/badge/-NPM-red) (Node Package Manager), Webpack, Vite, Postman ![Postman](https://img.shields.io/badge/-Postman-orange), Photoshop, Figma ![Figma](https://img.shields.io/badge/-Figma-purple)
+Front-end and Back-end Development, HTML5 [![HTML](https://img.shields.io/badge/-HTML5-orange)](https://link-to-html), CSS3 [![CSS](https://img.shields.io/badge/-CSS3-blue)](https://link-to-css), W3C HTML/CSS [![W3C](https://img.shields.io/badge/-W3C%20HTML%2FCSS-lightgrey)](https://link-to-w3c), [![Sass](https://img.shields.io/badge/Sass-lang.com-green)](https://link-to-sass), Bootstrap [![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple)](https://link-to-bootstrap), [![Bulma](https://img.shields.io/badge/Bulma-green)](https://link-to-bulma), Tailwind CSS [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-teal)](https://link-to-tailwind), UI libraries, JavaScript (ES2015/ES2019) [![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)](https://link-to-javascript), [![TypeScript](https://img.shields.io/badge/TypeScript-blue)](https://link-to-typescript), [![jQuery](https://img.shields.io/badge/jQuery-green)](https://link-to-jquery), [![Vue.js](https://img.shields.io/badge/Vue.js-green)](https://link-to-vue), [![React](https://img.shields.io/badge/React-blue)](https://link-to-react), Angular, Redux, Vuex, Pinia, SPA (Single-Page Application), SSR (Server-Side Rendering), SSG (Static Site Generation), DOM (Document Object Model), BEM (Block Element Modifier), Ajax, MVC (Model-View-Controller), OSI (Open System Interconnection), OOP (Object-Oriented Programming), SEO (Search Engine Optimization), Algorithms, SDLC (Software Development Life Cycle), Scrum, Kanban, AI (Artificial Intelligence), Node.js [![Node.js](https://img.shields.io/badge/-Node.js-green)](https://link-to-node), Express.js, SQL [![SQL](https://img.shields.io/badge/-SQL-blue)](https://link-to-sql), MongoDB, PostgreSQL, Web sockets, Git [![Git](https://img.shields.io/badge/-Git-red)](https://link-to-git) (GitHub, GitLab), VS Code [![VS Code](https://img.shields.io/badge/-VS%20Code-blue)](https://link-to-vscode), Chrome Developer Tools, NPM [![NPM](https://img.shields.io/badge/-NPM-red)](https://link-to-npm) (Node Package Manager), Webpack, Vite, Postman [![Postman](https://img.shields.io/badge/-Postman-orange)](https://link-to-postman), Photoshop, Figma [![Figma](https://img.shields.io/badge/-Figma-purple)](https://link-to-figma)
+
+
+
 
 ## Thanks to Developers
 
@@ -121,4 +118,4 @@ Feel free to explore my CV and its source code to learn more about my skills and
 Thank you for visiting!
 
 <a name="bottom"></a>
-[![Scroll to Top](https://example.com/scroll_up_image.png)](#top)
+[![Scroll to Top](https://github.com/vadym4che/cv/blob/main/public/favicon.png)](#top)
