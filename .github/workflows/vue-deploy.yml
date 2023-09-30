@@ -1,4 +1,4 @@
-name: Node.js Deployment
+name: Vue app Deployment
 
 on:
   push:
@@ -25,7 +25,6 @@ jobs:
         run: |
           git config --global user.name "vadym4che"
           git config --global user.email "vadym4che@gmail.com"
-        shell: bash
 
       - name: Build and Deploy
         env:
