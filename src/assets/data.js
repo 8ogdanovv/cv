@@ -18,7 +18,7 @@ export default {
     },
     {
       paragraph:
-        'I\'m experienced enough to exact know',
+        'I\'m experienced enough to exactly know',
     },
     {
       paragraph:
