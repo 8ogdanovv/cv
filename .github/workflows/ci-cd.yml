@@ -32,43 +32,68 @@
 #         env:
 #           GH_PAGES_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
 
-name: Deploy to GitHub Pages
+# name: Deploy to GitHub Pages
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   deploy:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0  # Fetch all history for accurate versioning
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#         with:
+#           fetch-depth: 0  # Fetch all history for accurate versioning
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16  # Set Node.js version to 16
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v2
+#         with:
+#           node-version: 16  # Set Node.js version to 16
 
-      - name: Install dependencies
-        run: npm install  # Install project dependencies
+#       - name: Install dependencies
+#         run: npm install  # Install project dependencies
 
-      - name: Set Git User Information
-        run: |
-          git config --global user.name "vadym4che"
-          git config --global user.email "vadym4che@gmail.com"
-        shell: bash
+#       - name: Set Git User Information
+#         run: |
+#           git config --global user.name "vadym4che"
+#           git config --global user.email "vadym4che@gmail.com"
+#         shell: bash
 
-      - name: Build and Deploy
-        env:
-          GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
-        run: |
-          npm install -g gh-pages
-          gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
+#       - name: Build and Deploy
+#         env:
+#           GH_TOKEN: ${{ secrets.GH_PAGES_TOKEN }}
+#         run: |
+#           npm install -g gh-pages
+#           gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
+
+  name: Deploy to github pages
+  on:
+    push:
+      branches:
+        - master
+  jobs:
+    gh-pages-deploy:
+      name: Deploying to gh-pages
+      runs-on: ubuntu-latest
+      steps:
+        - name: Setup Node.js for use with actions
+          uses: actions/setup-node@v2
+          with:
+            version:  12.x
+        - name: Checkout branch
+          uses: actions/checkout@v2
+
+        - name: Clean install dependencies
+          run: npm ci
+
+        - name: Run deploy script
+          run: |
+            git config user.name "vadym4che" && git config user.email "vadym4che@gmail.com"
+            npm run gh-pages-deploy
