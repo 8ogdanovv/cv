@@ -63,5 +63,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_ACTIONS_TOKEN }}
         run: |
+          git config user.name "vadym4che"
+          git config user.email "vadym4che@gmail.com"
           npm install -g gh-pages
           gh-pages -d dist -b gh-pages -u "$GH_TOKEN"
