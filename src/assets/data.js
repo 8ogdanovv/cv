@@ -226,26 +226,6 @@ export default {
       image: 'https://vitejs.dev/logo.svg',
       title: 'Vite',
     },
-    // {
-    //   link: 'https://flask.palletsprojects.com/',
-    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png',
-    //   title: 'Flask',
-    // },
-    // {
-    //   link: 'https://www.djangoproject.com/',
-    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/2560px-Django_logo.svg.png',
-    //   title: 'Django',
-    // },
-    // {
-    //   link: 'https://angular.io/',
-    //   image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png',
-    //   title: 'Angular',
-    // },
-    // {
-    //   link: 'https://www.cypress.io/',
-    //   image: 'https://www.cypress.io/_astro/navbar-brand.0d71ff96.svg',
-    //   title: 'Cypress',
-    // },
     {
       link: 'https://tailwindcss.com/',
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png?20211001194333',
@@ -262,14 +242,9 @@ export default {
       title: 'Nuxt.js',
     },
     {
-      link: 'https://react.dev/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png',
-      title: 'ReactJS'
-    },
-    {
-      link: 'https://nextjs.org/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/394px-Nextjs-logo.svg.png',
-      title: 'Next.js',
+      link: 'https://vitepress.dev/',
+      image: 'https://vitepress.dev/vitepress-logo-large.webp',
+      title: 'VitePress'
     },
     {
       link: 'https://expressjs.com/',
@@ -280,11 +255,6 @@ export default {
       link: 'https://cloud.google.com/',
       image: 'https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png',
       title: 'GCP',
-    },
-    {
-      link: 'https://aws.amazon.com/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1280px-Amazon_Web_Services_Logo.svg.png',
-      title: 'AWS',
     },
     {
       link: 'https://www.postman.com/',
@@ -329,14 +299,9 @@ export default {
       title: 'WebGL'
     },
     {
-      link: 'https://threejs.org/',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Three.js_Icon.svg/1200px-Three.js_Icon.svg.png',
-      title: 'Three.js'
-    },
-    {
-      link: 'https://electronjs.org/',
-      image: 'https://cdn.icon-icons.com/icons2/2552/PNG/512/electron_browser_logo_icon_152997.png',
-      title: 'Electronjs.js'
+      link: 'https://quasar.dev/',
+      image: 'https://cdn.quasar.dev/logo-v2/svg/logo-dark.svg',
+      title: 'Quasar'
     },
   ],
   folio: [
@@ -349,11 +314,6 @@ export default {
       link: "https://vadym4che.github.io/fireSnow/",
       image: "./02.webp",
       title: "Fire's'Now - nice snow - SCSS",
-    },
-    {
-      link: 'https://vadym4che.github.io/layout_stop-watch/',
-      image: './03.webp',
-      title: 'Real-time Watch Widget - SCSS, JS'
     },
     {
       link: 'https://vadym4che.github.io/lunar-solar-time/',
@@ -475,11 +435,11 @@ export default {
       image: './27.webp',
       title: 'Nice Gatgets - full-stack PERN'
     },
-    {
-      link: 'https://vadym4che.github.io/orders-and-products-client/',
-      image: './28.webp',
-      title: 'Another full-stack app - MEVN'
-    },
+    // {
+    //   link: 'https://vadym4che.github.io/orders-and-products-client/',
+    //   image: './28.webp',
+    //   title: 'Another full-stack app - MEVN'
+    // },
     {
       link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
       image: './29.webp',
