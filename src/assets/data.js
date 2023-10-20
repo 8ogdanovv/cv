@@ -547,7 +547,7 @@ export default {
     {
       link: 'https://github.com/rubjo',
       image: 'https://avatars.githubusercontent.com/u/42270947?v=4',
-      title: 'Rubjo',
+      title: 'Rune Bjørnerås',
     },
     {
       link: 'https://github.com/zkochan',
