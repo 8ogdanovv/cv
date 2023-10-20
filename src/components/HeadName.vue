@@ -220,9 +220,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   word-wrap: normal;
-}
-
-h1 {
   position: relative;
   display: flex;
 }
@@ -285,7 +282,7 @@ p {
   left: 66%;
   width: 12vh;
   height: 12vh;
-  background: rgba(64, 130, 96, 0.66); 
+  background: rgba(64, 130, 96, 0.66);
   border-radius: 2.5vh;
   overflow: visible;
 }
