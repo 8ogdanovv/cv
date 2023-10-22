@@ -321,6 +321,11 @@ export default {
       title: 'Solar + lunar time widget'
     },
     {
+      link: 'https://vadym4che.github.io/graphics-js/',
+      image: './33.webp',
+      title: 'Tree.js + JavaScript - memento mori'
+    },
+    {
       link: "https://vadym4che.github.io/my-server-io/",
       image: "./05.webp",
       title: "Loading - unique shaped blocks"
@@ -454,6 +459,11 @@ export default {
       link: 'https://vadym4che.github.io/weather-app/',
       image: './31.webp',
       title: 'Forecast app - Vue.js, Axios'
+    },
+    {
+      link: 'https://vadym4che.github.io/restaurant-react/',
+      image: './34.webp',
+      title: 'React - restaurant landing'
     },
     {
       link: 'https://your-cocktail-dugu.vercel.app/',
