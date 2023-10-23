@@ -466,7 +466,7 @@ export default {
       title: 'Ubuntu LTS Virtual-box tutorial'
     },
     {
-      link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
+      link: 'https://github.com/vadym4che/synthwave-black-neon',
       image: './36.webp',
       title: 'synthwave-black-neon theme remix - black'
     },
