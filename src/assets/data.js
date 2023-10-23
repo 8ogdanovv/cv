@@ -316,6 +316,11 @@ export default {
       title: "Fire's'Now - nice snow - SCSS",
     },
     {
+      link: 'https://vadym4che.github.io/layout_stop-watch/',
+      image: './03.webp',
+      title: 'Stop watching time - live!'
+    },
+    {
       link: 'https://vadym4che.github.io/lunar-solar-time/',
       image: './04.webp',
       title: 'Solar + lunar time widget'
@@ -396,6 +401,16 @@ export default {
       title: `JS inserts CSS styled <div/>'s`
     },
     {
+      link: 'https://vadym4che.github.io/react_decompose/',
+      image: './40.webp',
+      title: `Sticky header example React`
+    },
+    {
+      link: 'https://vadym4che.github.io/layout_calendar/',
+      image: './38.webp',
+      title: `Customizable calendar SCSS layout`
+    },
+    {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',
       image: './19.webp',
       title: 'Movies collection - RegExp, React'
@@ -404,6 +419,21 @@ export default {
       link: "https://vadym4che.github.io/simplicity-angular/",
       image: "./20.webp",
       title: "Angular main features 2021",
+    },
+    {
+      link: "https://vadym4che.github.io/nuxt-demo/",
+      image: "./28.webp",
+      title: "Nuxt 3 - simple theme toggler",
+    },
+    {
+      link: "https://vadym4che.github.io/react_live_coding_cars_table_task/",
+      image: "./39.webp",
+      title: "Choose your car app React",
+    },
+    {
+      link: "https://vadymchervoniak.pythonanywhere.com/",
+      image: "./35.webp",
+      title: "Dices'n'Dominoes PY Flask + JS",
     },
     {
       link: "https://vadym4che.github.io/travel-app-vue/",
@@ -431,6 +461,16 @@ export default {
       title: 'Task backlog - React, TypeScript'
     },
     {
+      link: 'https://vadym4che.github.io/virtual-box-ubuntu/',
+      image: './37.webp',
+      title: 'Ubuntu LTS Virtual-box tutorial'
+    },
+    {
+      link: 'https://vadym4che.github.io/react_dynamic-list-of-todos/',
+      image: './36.webp',
+      title: 'synthwave-black-neon theme remix - black'
+    },
+    {
       link: 'https://vadym4che.github.io/react_todo-app-with-api/',
       image: './26.webp',
       title: 'Todos full-stack app - PERN, Bulma'
@@ -440,11 +480,6 @@ export default {
       image: './27.webp',
       title: 'Nice Gatgets - full-stack PERN'
     },
-    // {
-    //   link: 'https://vadym4che.github.io/orders-and-products-client/',
-    //   image: './28.webp',
-    //   title: 'Another full-stack app - MEVN'
-    // },
     {
       link: 'https://vadym4che.github.io/abz-agency-test-assignment/',
       image: './29.webp',
