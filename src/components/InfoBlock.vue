@@ -491,6 +491,7 @@ p {
   align-items: center;
   justify-content: center;
   line-height: 250% !important;
+  z-index: 0;
 }
 
 .demos_img {
