@@ -238,7 +238,7 @@ export default {
     },
     {
       link: 'https://nuxt.com/',
-      image: 'https://nuxt.com/assets/design-kit/logo/icon-green.svg',
+      image: 'https://nuxt.com/assets/design-kit/icon-green.svg',
       title: 'Nuxt.js',
     },
     {

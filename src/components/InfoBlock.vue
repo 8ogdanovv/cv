@@ -60,24 +60,24 @@
       @click="toggle"
       v-show="toggleBool"
       :class="[dataObject[0].link ? 'wrapper scrollable' : 'paragraphs scrollable',
-      extraStyles === 'contacts' ? 'contacts' : 'demos']"
+      extraStyles === 'contacts' ? 'contacts' : extraStyles === 'demos' ? 'demos' : '']"
       :ref="refName"
     >
       <li
         v-for="(data, index) in dataObject"
         :key="index"
-        :class="[dataObject[0].link ? 'wrapper_li' : 'paragraph_li', extraStyles === 'contacts' ? 'contacts_li' : 'demos_li' ]"
+        :class="[dataObject[0].link ? 'wrapper_li' : 'paragraph_li', extraStyles === 'contacts' ? 'contacts_li' : extraStyles === 'demos' ? 'demos_li' : '' ]"
       >
         <a
           v-if="dataObject[index].link && dataObject[index].title"
           :href="data.link"
-          :class="[extraStyles === 'contacts' ? 'contacts_a' : 'demos_a' ]"
+          :class="[extraStyles === 'contacts' ? 'contacts_a' : extraStyles === 'demos' ? 'demos_a' : '' ]"
         >
           <img
             v-if="dataObject[index].image"
             :src="data.image"
             :alt="data.title"
-            :class="[extraStyles === 'contacts' ? 'contacts_img' : 'demos_img' ]"
+            :class="[extraStyles === 'contacts' ? 'contacts_img' : extraStyles === 'demos' ? 'demos_img' : '' ]"
           />
           {{ data.title }}
         </a>
