@@ -1,4 +1,21 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>(č) Vadym Chervoniak CV</title><link rel="icon" href="/cv/favicon.png"><link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><style>html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>ЧЕРВОНЯК ВАДИМ ВІКТОРОВИЧ</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet">
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    </script>
+    <style>
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -6,13 +23,25 @@
     font: inherit;
     vertical-align: baseline;
     font-family: 'Victor Mono', monospace;
-    }</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"><script>const clock = () => {
+    }
+    .seo {
+      visibility: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <script>
+      const clock = () => {
         const updateTitle = () => {
           const date = new Date();
           const timeOpt = {};
           const title_date_time = date.toLocaleString("nl-BE", timeOpt);
           const title_date = title_date_time.toLocaleString().slice(0, 9);
-          const title_time = title_date_time.toLocaleString().slice(9);
+          const title_time = title_date_time.toLocaleString().slice(10);
 
           const seconds = date.getSeconds();
           document.title = `${title_date} ${seconds % 2 === 0 ? '|Č|' : '(č)'} ${title_time}`;
@@ -22,4 +51,14 @@
         setInterval(updateTitle, 1000);
       };
 
-      window.onload = clock;</script><script defer="defer" src="/cv/js/chunk-vendors.b8412d7c.js"></script><script defer="defer" src="/cv/js/app.c8aa7b70.js"></script><link href="/cv/css/app.c3e97bdc.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but landing-cv-vue doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+      window.onload = clock;
+    </script>
+    <script type="module" crossorigin src="/cv/assets/index-30a13243.js"></script>
+    <link rel="stylesheet" href="/cv/assets/index-c5f1c613.css">
+  </head>
+  <body>
+    <h1 class="seo">ЧЕРВОНЯК ВАДИМ ВІКТОРОВИЧ</h1>
+    <div id="app"></div>
+    
+  </body>
+</html>
