@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>(č) Vadym Chervoniak CV</title>
+    <title>ЧЕРВОНЯК ВАДИМ ВІКТОРОВИЧ</title>
     <link rel="icon" href="favicon.png">
     <link href="https://fonts.cdnfonts.com/css/alarm-clock" rel="stylesheet">
     <script
@@ -41,7 +41,7 @@
           const timeOpt = {};
           const title_date_time = date.toLocaleString("nl-BE", timeOpt);
           const title_date = title_date_time.toLocaleString().slice(0, 9);
-          const title_time = title_date_time.toLocaleString().slice(9);
+          const title_time = title_date_time.toLocaleString().slice(10);
 
           const seconds = date.getSeconds();
           document.title = `${title_date} ${seconds % 2 === 0 ? '|Č|' : '(č)'} ${title_time}`;
@@ -56,10 +56,7 @@
   </head>
   <body>
     <h1 class="seo">ЧЕРВОНЯК ВАДИМ ВІКТОРОВИЧ</h1>
-    <h1 class="seo">Червоняк Вадим Вікторович</h1>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
     <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -1,29 +1,21 @@
 {
-  "name": "landing-cv-vue",
-  "version": "0.1.0",
-  "homepage": "https://vadym4che.github.io/cv/",
+  "name": "cvite",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "autodeploy": "npm run build && git stash save 'Stash changes' && git checkout gh-pages && git pull && git stash pop && rm -rf * && mv dist/* . && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin HEAD:gh-pages --force && git checkout main",
-    "gh-pages-deploy": "node scripts/gh-pages-deploy.js",
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "vue": "^3.3.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5",
     "gh-pages": "^4.0.0"
   }
 }

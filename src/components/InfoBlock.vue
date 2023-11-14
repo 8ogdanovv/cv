@@ -60,37 +60,24 @@
       @click="toggle"
       v-show="toggleBool"
       :class="[dataObject[0].link ? 'wrapper scrollable' : 'paragraphs scrollable',
-      extraStyles === 'contacts' ? 'contacts' : '']"
+      extraStyles === 'contacts' ? 'contacts' : 'demos']"
       :ref="refName"
     >
       <li
         v-for="(data, index) in dataObject"
         :key="index"
-        :class="[dataObject[0].link ? 'wrapper_li' : 'paragraph_li']"
-        :style="[
-          extraStyles === 'contacts'
-            ? {
-                justifyContent: 'space-between',
-                border: 'none',
-                width: '25%',
-                margin: '1vh',
-              }
-            : { justifyContent: 'space-between' },
-        ]"
+        :class="[dataObject[0].link ? 'wrapper_li' : 'paragraph_li', extraStyles === 'contacts' ? 'contacts_li' : 'demos_li' ]"
       >
         <a
           v-if="dataObject[index].link && dataObject[index].title"
           :href="data.link"
+          :class="[extraStyles === 'contacts' ? 'contacts_a' : 'demos_a' ]"
         >
           <img
             v-if="dataObject[index].image"
             :src="data.image"
             :alt="data.title"
-            :style="[
-              extraStyles !== 'contacts'
-                ? { height: '11.5vh', width: 'auto' }
-                : {},
-            ]"
+            :class="[extraStyles === 'contacts' ? 'contacts_img' : 'demos_img' ]"
           />
           {{ data.title }}
         </a>
@@ -210,13 +197,6 @@ export default {
   );
 }
 
-.contacts img {
-  width: auto;
-}
-
-.contacts a {
-  text-decoration-line: none;
-}
 .block {
   width: 96vw;
   margin: 0 1.5vw 0.75vh ;
@@ -384,7 +364,7 @@ p {
   }
 
   img {
-    max-width: 15vw;
+    max-width: 15.5vw;
   }
 
   .toggler {
@@ -395,10 +375,10 @@ p {
 }
 
 @media (orientation: portrait) {
-  .contacts li {
+  .contacts_li {
     height: 10vh;
   }
-  .contacts a {
+  .contacts_a {
     font-size: 1.2rem;
   }
 
@@ -452,7 +432,7 @@ p {
 @media (resolution: 72dpi) {
   /* CSS rules for devices with 72dpi */
   /* For example, you can apply specific styles or layouts */
-  .contacts a {
+  .contacts_a {
     font-size: 0.66rem;
   }
 
@@ -466,12 +446,70 @@ p {
 @media (max-width: 640px) {
   /* CSS rules for devices with 72dpi */
   /* For example, you can apply specific styles or layouts */
-  .contacts a {
+  .contacts_a {
     font-size: 0.66rem;
   }
 
   .italic {
     letter-spacing: -0.15ch;
+  }
+}
+
+@media (max-width: 540px) {
+  .toggler-title {
+    font-size: 100%;
+    line-height: 150%;
+  }
+}
+
+.contacts {
+  padding: 0;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.contacts_li {
+  max-width: 20%;
+  margin: 2%;
+  height: 10dvh;
+}
+.contacts_a {
+  text-decoration-line: none;
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.demos {
+
+}
+.demos_li {
+}
+.demos_a {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  line-height: 250% !important;
+}
+
+.demos_img {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 16vh !important;
+}
+
+@media (orientation: portrait) {
+  .demos_img {
+    height: 16vh !important;
+  }
+}
+@media (orientation: landscape) {
+  .demos_img {
+    height: 18vh !important;
   }
 }
 

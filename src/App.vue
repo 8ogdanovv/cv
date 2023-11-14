@@ -26,6 +26,7 @@
       :defaultShow="true"
       :openSound="openSound"
       :closeSound="closeSound"
+      extraStyles="demos"
       keyString="2"
       scrollColor="#ffff00cc"
     />
@@ -182,7 +183,7 @@ a {
 }
 
 h6 {
-  z-index: -1;
+  z-index: 0;
   width: 100%;
   text-align: center;
   font-size: 10px;

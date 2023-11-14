@@ -505,6 +505,16 @@ export default {
       image: './32.webp',
       title: 'Y(our)-cocktail - Nuxt, Vue, Vercel'
     },
+    {
+      link: 'https://vadym4che.github.io/backendless-tabs-jsx/',
+      image: './41.webp',
+      title: 'React, React-router, MUI - CRM-like'
+    },
+    {
+      link: 'https://vadym4che.github.io/vue3-feedback-widget/',
+      image: './42.webp',
+      title: 'Vue 3, Vuetify, Firebase - feedbacks app'
+    },
   ],
   contacts: [
     {
@@ -521,6 +531,11 @@ export default {
         link: "https://t.me/vadym4che",
         image: "https://cdn3.iconfinder.com/data/icons/social-networks-34/96/social-22-512.png",
         title: "@vadym4che",
+    },
+    {
+        link: "https://github.com/vadym4che",
+        image: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+        title: "/vadym4che",
     },
   ],
   inspired: [

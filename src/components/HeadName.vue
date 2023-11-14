@@ -1,8 +1,7 @@
 <template>
   <div class="main">
       <div class="top">
-
-      <h1>
+      <h2>
         <span class="vadym">
           <b>Vadym</b>
         </span>
@@ -10,9 +9,9 @@
         <span class="che">
           <b>Chervoniak</b>
         </span>
-      </h1>
+      </h2>
 
-      <h2>
+      <h3>
         <span>w</span>
         <span>w</span>
         <span>w</span>
@@ -26,7 +25,7 @@
         <span>p</span>
         <span>e</span>
         <span>r</span>
-      </h2>
+      </h3>
     </div> 
 
     <div class="photo">
@@ -35,19 +34,12 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HeadName",
-};
-
-</script>
-
 <style scoped>
 
-h2 span {
+h3 span {
 
   position: relative;
-  z-index: -1;
+  z-index: 0;
   display: inline-block;
   animation: bounce .66s ease infinite alternate;
 
@@ -65,51 +57,51 @@ h2 span {
     0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-h2 span:nth-child(2) {
+h3 span:nth-child(2) {
   animation-delay: .1s;
 }
 
-h2 span:nth-child(3) {
+h3 span:nth-child(3) {
   animation-delay: .2s;
 }
 
-h2 span:nth-child(4) {
+h3 span:nth-child(4) {
   animation-delay: .3s;
 }
 
-h2 span:nth-child(5) {
+h3 span:nth-child(5) {
   animation-delay: .4s;
 }
 
-h2 span:nth-child(6) {
+h3 span:nth-child(6) {
   animation-delay: .5s;
 }
 
-h2 span:nth-child(7) {
+h3 span:nth-child(7) {
   animation-delay: .6s;
 }
 
-h2 span:nth-child(8) {
+h3 span:nth-child(8) {
   animation-delay: .7s;
 }
 
-h2 span:nth-child(9) {
+h3 span:nth-child(9) {
   animation-delay: .8s;
 }
 
-h2 span:nth-child(10) {
+h3 span:nth-child(10) {
   animation-delay: .9s;
 }
 
-h2 span:nth-child(11) {
+h3 span:nth-child(11) {
   animation-delay: 1s;
 }
 
-h2 span:nth-child(12) {
+h3 span:nth-child(12) {
   animation-delay: 1.1s;
 }
 
-h2 span:nth-child(13) {
+h3 span:nth-child(13) {
   animation-delay: 1.2s;
 }
 
@@ -150,7 +142,7 @@ h2 span:nth-child(13) {
     height: 12vh;
   }
 
-  h1 {
+  h2 {
     line-height: 2.5rem;
     font-size: 2.5rem;
     width: 50vw;
@@ -158,13 +150,13 @@ h2 span:nth-child(13) {
     flex-direction: column;
   }
 
-  h2 {
+  h3 {
     height: 4vh;
     margin-top: -1vh;
     padding-bottom: 2.5vh;
   }
 
-  h2 span {
+  h3 span {
     margin: auto 1vw;
     top: 2vh;
     font-size: 4vh;
@@ -177,7 +169,7 @@ h2 span:nth-child(13) {
     height: 6vh;
   }
 
-  h2 {
+  h3 {
     height: 4vh;
     position: fixed;
     bottom: 3.2vh;
@@ -187,13 +179,13 @@ h2 span:nth-child(13) {
     justify-content: center;
   }
 
-  h2 span {
+  h3 span {
     margin: auto 1vw;
     top: 2vh;
     font-size: 4vh;
   }
 
-  h1 {
+  h2 {
     font-size: 3rem;
     line-height: 6.5vh;
     align-items: center;
@@ -203,7 +195,7 @@ h2 span:nth-child(13) {
 
 }
 
-h1 {
+h2 {
   letter-spacing: 0.2rem;
   font-stretch: ultra-expanded;
   font-weight: 900;
@@ -224,7 +216,7 @@ h1 {
   display: flex;
 }
 
-h1 .vadym {
+h2 .vadym {
   display: block;
   background: -webkit-linear-gradient(
     90deg,
@@ -240,7 +232,7 @@ h1 .vadym {
 
 }
 
-h1 .che {
+h2 .che {
   display: block;
   background: -webkit-linear-gradient(
     270deg,
@@ -301,7 +293,7 @@ p {
 }
 
 @media screen and (min-width: 960px) and (orientation: landscape) {
-  h1, h1::after {
+  h2, h2::after {
     letter-spacing: 1.175vw;
   }
 
@@ -310,23 +302,45 @@ p {
   }
 }
 
-@media (max-width: 468px) {
-  h1, h1::after {
-    letter-spacing: 0;
+@media (max-width: 845px) {
+  h3 span {
+    margin: auto 0.3rem;
+  }
+}
+
+@media (max-width: 720px) {
+  h3 span {
+    margin: auto 0.2rem;
   }
 }
 
 @media (max-height: 637px) {
-  h1, h1::after {
+  h2, h2::after {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  h3 span {
+    margin: auto 0.1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  h3 span {
+    margin: 0;
+  }
+}
+
+@media (max-width: 468px) {
+  h2, h2::after {
+    letter-spacing: 0;
+  }
+}
+
+@media (max-width: 408px) {
+  h2, h2::after {
     font-size: 2rem;
     line-height: 2rem;
   }
 }
 
-@media (max-width: 408px) {
-  h1, h1::after {
-    font-size: 2rem;
-    line-height: 2rem;
-  }
-}
 </style>
