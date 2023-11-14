@@ -41,7 +41,7 @@ h3 span {
   position: relative;
   z-index: 0;
   display: inline-block;
-  animation: bounce .66s ease infinite alternate;
+  animation: bounce 0.66s ease infinite alternate;
 
   color: #fff;
   text-shadow:
@@ -299,6 +299,19 @@ p {
 
   .photo {
     left: 75dvw;
+  }
+}
+
+@media (orientation: portrait) {
+  h2, h2::after {
+    font-size: 4dvh;
+    line-height: 5dvh;
+    letter-spacing: 1.175vw;
+    margin-bottom: -4dvh;
+  }
+
+  h3 span {
+    margin: auto 0.3rem;
   }
 }
 

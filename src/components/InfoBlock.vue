@@ -469,7 +469,6 @@ p {
 }
 .contacts_li {
   max-width: 20%;
-  margin: 2%;
   height: 10dvh;
 }
 .contacts_a {
@@ -481,11 +480,8 @@ p {
   gap: 1rem;
 }
 
-.demos {
-
-}
-.demos_li {
-}
+.demos {}
+.demos_li {}
 .demos_a {
   position: relative;
   align-items: center;
@@ -507,10 +503,23 @@ p {
   .demos_img {
     height: 16vh !important;
   }
+
+  .contacts_li {
+    margin: 2%;
+  }
 }
+
 @media (orientation: landscape) {
   .demos_img {
     height: 18vh !important;
+  }
+
+  .contacts {
+    height: 19dvh;
+  }
+
+  .contacts_li {
+    margin: 1%;
   }
 }
 
