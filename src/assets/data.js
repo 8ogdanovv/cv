@@ -361,6 +361,11 @@ export default {
       title: "Responsive layout - BEM, React",
     },
     {
+      link: "https://vadym4che.github.io/che-org/",
+      image: "./43.webp",
+      title: "Vue 2 light landing page + feedback form",
+    },
+    {
       link: 'https://vadym4che.github.io/layout_miami/',
       image: './11.webp',
       title: 'MyBike landing - BEM, SCSS, JS'
@@ -406,14 +411,19 @@ export default {
       title: `Sticky header example React`
     },
     {
+      link: 'https://vadym4che.github.io/gpt-cuisine-symphony/',
+      image: './44.webp',
+      title: `GPT technological recipe + Funny article`
+    },
+    {
       link: 'https://vadym4che.github.io/layout_calendar/',
       image: './38.webp',
       title: `Customizable calendar SCSS layout`
     },
     {
-      link: 'https://vadym4che.github.io/interactive-web-calendar/',
+      link: 'https://vadym4che.github.io/e-time/',
       image: './45.webp',
-      title: `Calendar for 6 months + lunar phases`
+      title: `E-Time | Calendar Solar dates + Lunar phases`
     },
     {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',
