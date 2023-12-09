@@ -421,11 +421,6 @@ export default {
       title: `Customizable calendar SCSS layout`
     },
     {
-      link: 'https://vadym4che.github.io/e-time/',
-      image: './45.webp',
-      title: `E-Time | Calendar Solar dates + Lunar phases`
-    },
-    {
       link: 'https://vadym4che.github.io/react_movies-list-add-form/',
       image: './19.webp',
       title: 'Movies collection - RegExp, React'
@@ -534,6 +529,11 @@ export default {
       link: 'https://vadym4che.github.io/vue-weather-app/preloader/',
       image: './46.webp',
       title: 'Vite, Vue 3, i18n, Geoapify, GMaps, Open-Meteo'
+    },
+    {
+      link: 'https://vadym4che.github.io/e-time/',
+      image: './45.webp',
+      title: `E-Time | Solar + Lunar astro app`
     },
   ],
   contacts: [
