@@ -29,7 +29,7 @@
     </div> 
 
     <div class="photo">
-      <img src="../assets/photo956.png" alt="photo" />
+      <img src="../assets/photo720.jpg" alt="photo" />
     </div>
   </div>
 </template>
